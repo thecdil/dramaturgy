@@ -58,7 +58,7 @@ layout: default
                     {% assign mod5 = actsceneline | modulo: 5 %}
                     <tr id="{{ line.actsceneline }}" class="{{ line.player }}">
                         <td class="words">
-                            <div id="spoken">{% if line.player == 'ACT'%}<span class="h3 pb-5">{{line.playerline}}</span> {% elsif line.player == 'SCENE' %}<span class="h5 pb-2">{{line.playerline}}</span> {% elsif line.player == "StageDirection" %} <em class="py-2">{{line.playerline}}</em> {% else %}{% if line.playerlinenumber == prev_playerlinenumber %}<span class="d-none">{{line.player | remove: ":"}}:</span>  {{line.playerline}}{% else %}{{line.player | remove: ":"}}: {{line.playerline}}{% endif %}{% endif %}</div>
+                            <div id="spoken"><div class="row">{% if line.player == 'ACT'%}<span class="h3 pb-5">{{line.playerline}}</span> {% elsif line.player == 'SCENE' %}<span class="h5 pb-2">{{line.playerline}}</span> {% elsif line.player == "StageDirection" %} <em class="py-2">{{line.playerline}}</em> {% else %}{% if line.playerlinenumber == prev_playerlinenumber %}<div class="col-2"><span class="d-none">{{line.player | remove: ":"}}:</span> </div><div class="col-9">{{line.playerline}}{% else %}<div class="col-2">{{line.player | remove: ":"}}: </div><div class="col-9">{{line.playerline}}{% endif %}{% endif %}</div></div></div>
                         </td>
                         <td class="timestamp">
                             {% if mod5 == 0 %}{{ actsceneline }}{% endif %}
