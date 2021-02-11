@@ -52,11 +52,13 @@ layout: default
             <div class="col-md-8 ml-md-3">
                 <table id="contents-container">
                     {% for line in lines %}
+                    {% assign prev_i = forloop.index0 | minus: 1 %}
+                    {% assign prev_playerlinenumber = lines[prev_i].playerlinenumber %}
                     {% assign actsceneline = line.actsceneline |split: "." | last %}
                     {% assign mod5 = actsceneline | modulo: 5 %}
                     <tr id="{{ line.actsceneline }}" class="{{ line.player }}">
                         <td class="words">
-                            <div id="spoken">{% if line.player == 'ACT'%}<span class="h3 pb-5">{{line.playerline}}</span> {% elsif line.player == 'SCENE' %}<span class="h5 pb-2">{{line.playerline}}</span> {% elsif line.player == "StageDirection" %} <em class="py-2">{{line.playerline}}</em> {% else %}{{line.player | remove: ":"}}: {{line.playerline}}{% endif %}</div>
+                            <div id="spoken">{% if line.player == 'ACT'%}<span class="h3 pb-5">{{line.playerline}}</span> {% elsif line.player == 'SCENE' %}<span class="h5 pb-2">{{line.playerline}}</span> {% elsif line.player == "StageDirection" %} <em class="py-2">{{line.playerline}}</em> {% else %}{% if line.playerlinenumber == prev_playerlinenumber %}<span class="d-none">{{line.player | remove: ":"}}:</span>  {{line.playerline}}{% else %}{{line.player | remove: ":"}}: {{line.playerline}}{% endif %}{% endif %}</div>
                         </td>
                         <td class="timestamp">
                             {% if mod5 == 0 %}{{ actsceneline }}{% endif %}
