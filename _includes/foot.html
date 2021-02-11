@@ -3,7 +3,7 @@
 <script src="{{ '/assets/lib/bootstrap.bundle.min.js' | relative_url }}"></script>
 <!-- load other js -->
 <script src="{{ '/assets/lib/lazysizes.min.js' | absolute_url }}" async></script>
-{% if page.layout == "transcript" %}{% include js/transcript-js.html %}{% endif %}
+{% if page.layout == "playscript" %}{% include js/transcript-js.html %}{% endif %}
 {% if page.layout == "visualization" %}{% include js/visualization-js.html %}{% endif %}
 {% if layout.gallery == true or page.gallery == true %}{% include js/gallery-js.html %}{% endif %}
 {% if page.layout == "item" %}{% include js/item-js.html %}{% endif %}

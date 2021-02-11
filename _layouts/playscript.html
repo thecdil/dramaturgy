@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign lines = site.data.midsummer -%}
+{% assign lines = site.data.midsummer | where: "actscene", page.actscene  %}
 
 {%- comment -%} find all words used in the subject metadata {%- endcomment -%}
 {%- assign min-count = 1 -%}
@@ -28,7 +28,7 @@ layout: default
 
 
             <header>
-                <h2 class="poet-name my-2">{{ page.title}}</h2>
+                <h2 class="poet-name my-2">{{ featured_scene}}</h2>
             </header>
             <div class="filteroptions mx-2 bg-light p-4 mb-4">
                 <h3 class="text-center">
@@ -52,13 +52,14 @@ layout: default
             <div class="col-md-8 ml-md-3">
                 <table id="contents-container">
                     {% for line in lines %}
-                    <tr id="{{page.object-id}}{{ forloop.index }}" class="{{ line.player }}">
-                        <td class="line">{{ forloop.index }}</td>
+                    {% assign actsceneline = line.actsceneline |split: "." | last %}
+                    {% assign mod5 = actsceneline | modulo: 5 %}
+                    <tr id="{{ line.actsceneline }}" class="{{ line.player }}">
                         <td class="words">
-                            <div id="spoken">{{line.player | remove: ":"}}: {{line.playerline}}</div>
+                            <div id="spoken">{% if line.player == 'ACT'%}<span class="h3 pb-5">{{line.playerline}}</span> {% elsif line.player == 'SCENE' %}<span class="h5 pb-2">{{line.playerline}}</span> {% elsif line.player == "StageDirection" %} <em class="py-2">{{line.playerline}}</em> {% else %}{{line.player | remove: ":"}}: {{line.playerline}}{% endif %}</div>
                         </td>
                         <td class="timestamp">
-                            {{ lines.actsceneline |split: "." | last }}
+                            {% if mod5 == 0 %}{{ actsceneline }}{% endif %}
                         </td>
                     </tr>
                     {% endfor %}
