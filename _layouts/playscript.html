@@ -22,6 +22,21 @@ layout: default
   </ul>
 </div>
        <div class="col-md-9">-->
+<button class="btn btn-success" id="annotateBtn">Annotation (hypothes.is)</button>
+<script> 
+    document.getElementById("annotateBtn").addEventListener("click", function() { 
+      window.hypothesisConfig = function () {
+        return {
+          "openSidebar": true
+        };
+      };
+      var hypothesis = document.createElement('script');
+      hypothesis.setAttribute('src','https://hypothes.is/embed.js');
+      document.head.appendChild(hypothesis);
+      document.getElementById("nav-trigger").checked = false;
+    });
+</script>
+
 <div class="container">
     <div class="row">
         <div class="col-md-12">
