@@ -36,7 +36,6 @@ metadata: demo-metadata
 collections:
   midsummer:
     output: true
-    permalink: /:collection/:title
 
 ##########
 # GOOGLE SERVICES [optional!]
