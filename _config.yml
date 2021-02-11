@@ -33,6 +33,11 @@ author: CollectionBuilder
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
 metadata: demo-metadata 
 
+collections:
+  midsummer:
+    output: true
+    permalink: /:collection/:title
+
 ##########
 # GOOGLE SERVICES [optional!]
 #
