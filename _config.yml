@@ -37,6 +37,11 @@ collections:
   midsummer:
     output: true
     permalink: /:collection/:title
+defaults:
+  - scope:
+      type: midsummer
+    values:
+      layout: playscript
 
 ##########
 # GOOGLE SERVICES [optional!]
