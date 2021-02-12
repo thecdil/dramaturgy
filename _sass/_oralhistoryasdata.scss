@@ -23,15 +23,15 @@
   {vertical-align: top;
     padding: 4px 10px;}
 
-.timestamp{font-size:10px;}
+.timestamp{font-size:10px;position: absolute; left: 9%}
 .grey {
   color: grey;
-  height: 3px;
-  width: 80%;
-  line-height: 2px;
-  float:left;
-  margin-bottom:1px; 
-  overflow: hidden;
+  height: 3px !important;
+  width: 80% !important;
+  line-height: 2px !important;
+  float:left !important;
+  margin-bottom:1px !important; 
+  font-size:1px !important;
 }
 
 .iframe-wrapper{
@@ -45,7 +45,7 @@ position: fixed;
 }
 
 .anchored-highlight{background:aquamarine;}
-.featured{display:block;float:none; clear:both;}
+.featured{}
 .line{ font-size:11px; float:left;width:auto;}
 .words{min-width: 650px;
   @include media-query($on-palm) {min-width: 250px;}}

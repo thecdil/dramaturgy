@@ -43,4 +43,4 @@ $theme-colors: map-merge(
   $theme-colors
 );
 
-@import "base", "theme-colors", "pages", "custom", "oralhistoryasdata", "tufte";
+@import "base", "theme-colors", "pages", "custom", "tufte", "oralhistoryasdata";

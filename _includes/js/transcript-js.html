@@ -3,11 +3,11 @@
   var myClass = this.value;
    $("tr").removeClass("featured"); 
    $('tr').removeClass("anchored-highlight"); 
-  $("tr").addClass("grey"); 
-    $('tr.'+myClass).removeClass("grey").addClass("featured"); 
+  $("p").addClass("grey"); 
+    $('p.'+myClass).removeClass("grey").addClass("featured"); 
     $('li.'+myClass).removeClass("hidden-all").addClass("featured"); 
     $("input#quicksearch").val(""); 
-    var numberofint = $('tr.featured').length;
+    var numberofint = $('p.featured').length;
    $("#numberof").html(numberofint);
    $("select").not(this).val($("option:first").val());
    let url = new URL(window.location);
@@ -19,9 +19,9 @@ window.history.replaceState({}, '', location.pathname + '?' + p );
  });
 
    $("button.reset").click(function() {
-  $("tr").removeClass("grey"); 
-  $('tr').removeClass("anchored-highlight"); 
-    $("tr").removeClass("featured"); 
+  $("p").removeClass("grey"); 
+  $('p').removeClass("anchored-highlight"); 
+    $("p").removeClass("featured"); 
     $("input#quicksearch").val(""); 
     $("#filters").val($("#filters option:first").val());
     $("#filters-two").val($("#filters-two option:first").val());
@@ -47,7 +47,7 @@ $("tr").click(function() {
  <script>
    function filterItems() {
     $('tr').removeClass("anchored-highlight"); 
-     var input, filter, table, tr, td, i;
+     var input, filter, p, span, i;
      input = document.getElementById("quicksearch");
      let url = new URL(window.location);
 let params = url.searchParams;
@@ -57,9 +57,9 @@ window.history.replaceState({}, '', location.pathname + '?' + p );
     filterplain = input.value; 
     filter = input.value.toUpperCase();
      itemcontainer = document.getElementById("contents-container");
-     item = itemcontainer.getElementsByTagName("tr");
+     item = itemcontainer.getElementsByTagName("p");
      for (i = 0; i < item.length; i++) {
-       itemcontents = item[i].getElementsByTagName("div")[0];
+       itemcontents = item[i].getElementsByTagName("span")[1];
        var index = itemcontents.innerHTML.indexOf(filterplain);
        console.log(filter + index)
        if (itemcontents) {

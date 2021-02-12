@@ -7,6 +7,8 @@
     max-width: 1400px;
     counter-reset: sidenote-counter;
 
+.row{    max-height: 50px;
+}
 
 h1 {
     font-weight: 400;
@@ -37,7 +39,7 @@ h3 {
 hr {
     display: block;
     height: 1px;
-    width: 55%;
+    width: 67%;
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
@@ -79,8 +81,8 @@ ul {
 }
 
 p {
-    margin-top: 1.4rem;
-    margin-bottom: 1.4rem;
+    margin-top: .1rem;
+    margin-bottom: .4rem;
     padding-right: 0;
     vertical-align: baseline;
 }
@@ -114,12 +116,12 @@ blockquote {
 }
 
 blockquote p {
-    width: 55%;
+    width: 67%;
     margin-right: 40px;
 }
 
 blockquote footer {
-    width: 55%;
+    width: 67%;
     font-size: 1.1rem;
     text-align: right;
 }
@@ -127,7 +129,7 @@ blockquote footer {
 section > p,
 section > footer,
 section > table {
-    width: 55%;
+    width: 67%;
 }
 
 /* 50 + 5 == 55, to be the same width as paragraph */
@@ -149,7 +151,7 @@ figure {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    max-width: 55%;
+    max-width: 67%;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     margin: 0 0 3em 0;
