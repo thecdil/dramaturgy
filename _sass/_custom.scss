@@ -2,3 +2,21 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+.annotation {max-height: 30px; overflow: hidden;
+    font-size: 1.1rem;
+    vertical-align: baseline;
+    position: relative;
+z-index:10;
+font-size: smaller;
+cursor: pointer;}
+
+.annotate-show{
+    overflow:visible;
+    background-color:#fff !important;
+}
+
+.annotated{
+        border-right:1px solid #FFA500;   
+        background-color:#fff;
+     }

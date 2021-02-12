@@ -1,11 +1,10 @@
 <script type="text/javascript">
   $("#filters").on('change', function() {
   var myClass = this.value;
-   $("tr").removeClass("featured"); 
-   $('tr').removeClass("anchored-highlight"); 
-  $("p").addClass("grey"); 
-    $('p.'+myClass).removeClass("grey").addClass("featured"); 
-    $('li.'+myClass).removeClass("hidden-all").addClass("featured"); 
+   $("div").removeClass("featured"); 
+   $('div').removeClass("anchored-highlight"); 
+  $(".playline").hide(); 
+    $('div.'+myClass).show(); 
     $("input#quicksearch").val(""); 
     var numberofint = $('p.featured').length;
    $("#numberof").html(numberofint);
@@ -19,9 +18,8 @@ window.history.replaceState({}, '', location.pathname + '?' + p );
  });
 
    $("button.reset").click(function() {
-  $("p").removeClass("grey"); 
-  $('p').removeClass("anchored-highlight"); 
-    $("p").removeClass("featured"); 
+  $(".playline").show(); 
+  $('.playline').removeClass("anchored-highlight"); 
     $("input#quicksearch").val(""); 
     $("#filters").val($("#filters option:first").val());
     $("#filters-two").val($("#filters-two option:first").val());
@@ -43,6 +41,8 @@ $("tr").click(function() {
     else{}
  });
 
+
+
    </script>
  <script>
    function filterItems() {
@@ -57,9 +57,9 @@ window.history.replaceState({}, '', location.pathname + '?' + p );
     filterplain = input.value; 
     filter = input.value.toUpperCase();
      itemcontainer = document.getElementById("contents-container");
-     item = itemcontainer.getElementsByTagName("p");
+     item = itemcontainer.getElementsByClassName("searchline");
      for (i = 0; i < item.length; i++) {
-       itemcontents = item[i].getElementsByTagName("span")[1];
+       itemcontents = item[i].getElementsByClassName("playline")[1];
        var index = itemcontents.innerHTML.indexOf(filterplain);
        console.log(filter + index)
        if (itemcontents) {
@@ -153,4 +153,11 @@ var hashfilter = decodeURIComponent(location.hash.substr(1));//.replace(/%20/g, 
  else{
  }});
  
+
+
+   $(".annotation").click(function() {
+  $("div").not(this).removeClass("annotate-show"); 
+$(this).toggleClass('annotate-show');
+ });
+
 </script>
