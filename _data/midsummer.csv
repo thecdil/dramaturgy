@@ -1,4 +1,4 @@
-dataline,play,playerlinenumber,actscene,actsceneline,player,playerline
+dataline,play,playerlinenumber,actscene,actsceneline,player,playerline,annotation
 66997,A Midsummer nights dream,75,1.1,,ACT,ACT I
 66998,A Midsummer nights dream,75,1.1,,SCENE,SCENE I. Athens. The palace of THESEUS.
 66999,A Midsummer nights dream,75,1.1,,StageDirection,"Enter THESEUS, HIPPOLYTA, PHILOSTRATE, and Attendants"
@@ -11,7 +11,7 @@ dataline,play,playerlinenumber,actscene,actsceneline,player,playerline
 67006,A Midsummer nights dream,2,1.1,1.1.7,HIPPOLYTA,"Four days will quickly steep themselves in night,"
 67007,A Midsummer nights dream,2,1.1,1.1.8,HIPPOLYTA,"Four nights will quickly dream away the time,"
 67008,A Midsummer nights dream,2,1.1,1.1.9,HIPPOLYTA,"And then the moon, like to a silver bow"
-67009,A Midsummer nights dream,2,1.1,1.1.10,HIPPOLYTA,"New-bent in heaven, shall behold the night"
+67009,A Midsummer nights dream,2,1.1,1.1.10,HIPPOLYTA,"New-bent in heaven, shall behold the night","This script generates a number of usually pronounceable and frequently amusing fake words loosely based on a specific language. They can be used, for example, to name characters in games and whatnot. Maybe you need to name a town or an NPC in your next campaign?"
 67010,A Midsummer nights dream,2,1.1,1.1.11,HIPPOLYTA,Of our solemnities.
 67011,A Midsummer nights dream,3,1.1,1.1.12,THESEUS,"Go, Philostrate,"
 67012,A Midsummer nights dream,3,1.1,1.1.13,THESEUS,"Stir up the Athenian youth to merriments,"
@@ -74,8 +74,8 @@ dataline,play,playerlinenumber,actscene,actsceneline,player,playerline
 67069,A Midsummer nights dream,13,1.1,1.1.68,THESEUS,For ever the society of men.
 67070,A Midsummer nights dream,13,1.1,1.1.69,THESEUS,"Therefore, fair Hermia, question your desires,"
 67071,A Midsummer nights dream,13,1.1,1.1.70,THESEUS,"Know of your youth, examine well your blood,"
-67072,A Midsummer nights dream,13,1.1,1.1.71,THESEUS,"Whether, if you yield not to your father's choice,"
-67073,A Midsummer nights dream,13,1.1,1.1.72,THESEUS,"You can endure the livery of a nun,"
+67072,A Midsummer nights dream,13,1.1,1.1.71,THESEUS,"Whether, if you yield not to your father's choice,","This script generates a number of usually pronounceable and frequently amusing fake words loosely based on a specific language. They can be used, for example, to name characters in games and whatnot. Maybe you need to name a town or an NPC in your next campaign?"
+67073,A Midsummer nights dream,13,1.1,1.1.72,THESEUS,"You can endure the livery of a nun,",ibid
 67074,A Midsummer nights dream,13,1.1,1.1.73,THESEUS,"For aye to be in shady cloister mew'd,"
 67075,A Midsummer nights dream,13,1.1,1.1.74,THESEUS,"To live a barren sister all your life,"
 67076,A Midsummer nights dream,13,1.1,1.1.75,THESEUS,Chanting faint hymns to the cold fruitless moon.
