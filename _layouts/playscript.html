@@ -22,6 +22,21 @@ layout: default
   </ul>
 </div>
        <div class="col-md-9">-->
+<button class="btn btn-success" id="annotateBtn">Annotation (hypothes.is)</button>
+<script> 
+    document.getElementById("annotateBtn").addEventListener("click", function() { 
+      window.hypothesisConfig = function () {
+        return {
+          "openSidebar": true
+        };
+      };
+      var hypothesis = document.createElement('script');
+      hypothesis.setAttribute('src','https://hypothes.is/embed.js');
+      document.head.appendChild(hypothesis);
+      document.getElementById("nav-trigger").checked = false;
+    });
+</script>
+
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -49,24 +64,27 @@ layout: default
                     <h4><span class="info2"><span id="numberof">{{ lines | size }}</span> of {{ lines | size }} rows</span> (click a missing row to make it appear)</h4>
 
             </div>
-            <div class="col-md-8 ml-md-3">
-                <table id="contents-container">
+            <div class="col-md-12 ml-md-3">
+                <div id="contents-container" class="tufte-content">
+                    <article class="pt-0">   
+                        <section>
                     {% for line in lines %}
                     {% assign prev_i = forloop.index0 | minus: 1 %}
-                    {% assign prev_playerlinenumber = lines[prev_i].playerlinenumber %}
+                    {% assign prev_player = lines[prev_i].player %}
                     {% assign actsceneline = line.actsceneline |split: "." | last %}
                     {% assign mod5 = actsceneline | modulo: 5 %}
-                    <tr id="{{ line.actsceneline }}" class="{{ line.player }}">
-                        <td class="words">
-                            <div id="spoken"><div class="row">{% if line.player == 'ACT'%}<span class="h3 pb-5">{{line.playerline}}</span> {% elsif line.player == 'SCENE' %}<span class="h5 pb-2">{{line.playerline}}</span> {% elsif line.player == "StageDirection" %} <em class="py-2">{{line.playerline}}</em> {% else %}{% if line.playerlinenumber == prev_playerlinenumber %}<div class="col-2"><span class="d-none">{{line.player | remove: ":"}}:</span> </div><div class="col-9">{{line.playerline}}{% else %}<div class="col-2">{{line.player | remove: ":"}}: </div><div class="col-9">{{line.playerline}}{% endif %}{% endif %}</div></div></div>
-                        </td>
-                        <td class="timestamp">
+                    <div id="{{ line.dataline }}" class="{{ line.player }} row">
+                        <div class="words" id="{{ line.actsceneline }} col-11">
+                            <div id="spoken"><div class="row">{% if line.player == 'ACT'%}<span class="h3 pb-5">{{line.playerline}}</span> {% elsif line.player == 'SCENE' %}<span class="h5 pb-2">{{line.playerline}}</span> {% elsif line.player == "StageDirection" %} <em class="py-2">{{line.playerline}}</em> {% else %}{% if line.player == prev_player %}<div class="col-2"></div><div class="col-9">{{line.playerline}}{% else %}<div class="col-2">{{line.player | remove: ":"}}: </div><div class="col-9">{{line.playerline}}{% endif %}{% endif %}</div></div></div>
+                        </div>
+                        <div class="timestamp col-1">
                             {% if mod5 == 0 %}{{ actsceneline }}{% endif %}
-                        </td>
+                        </div>
                     </tr>
                     {% endfor %}
-                   
-                </table>
+                        </section>
+                    </article>
+                </div>
             </div>
 
 
