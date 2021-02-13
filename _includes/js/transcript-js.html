@@ -5,8 +5,9 @@
    $('div').removeClass("anchored-highlight"); 
   $(".playline").hide(); 
     $('div.'+myClass).show(); 
+    $('.textline.'+myClass).addClass("featured"); 
     $("input#quicksearch").val(""); 
-    var numberofint = $('p.featured').length;
+    var numberofint = $('div.featured').length;
    $("#numberof").html(numberofint);
    $("select").not(this).val($("option:first").val());
    let url = new URL(window.location);
@@ -74,7 +75,7 @@ window.history.replaceState({}, '', location.pathname + '?' + p );
          }
        }       
      }
-     var numberofint = $('tr.featured').length;
+     var numberofint = $('p.featured').length;
    $("#numberof").html(numberofint);
    $("#filters").val($("#filters option:first").val("search filtering"));
    }
