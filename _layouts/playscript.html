@@ -84,8 +84,15 @@ layout: default
                     {% if line.annotation%}
                     <div class="border-right">
                     {% unless line.annotation contains "ibid" %}
+                    <p>
+                    <a data-toggle="collapse" data-target="#anno-{{line.dataline}}" aria-expanded="false" aria-controls="anno-{{line.dataline}}">
+                        {{line.annotation | truncatewords: 2 }} (click for more)
+                        </a>
+                    </p>
+                    <div class="collapse" id="anno-{{line.dataline}}">
+                        {{line.annotation | markdownify}}
                     
-                    {{line.annotation | markdownify}}
+                    </div>
                     {% endunless %}
                     </div>
                     {% endif %}
