@@ -5,7 +5,6 @@
    $('div').removeClass("anchored-highlight"); 
   $(".playline").hide(); 
     $('div.'+myClass).show(); 
-    $('.textline.'+myClass).addClass("featured"); 
     $("input#quicksearch").val(""); 
     var numberofint = $('div.featured').length;
    $("#numberof").html(numberofint);
@@ -20,7 +19,10 @@ window.history.replaceState({}, '', location.pathname + '?' + p );
 
    $("button.reset").click(function() {
   $(".playline").show(); 
-  $('.playline').removeClass("anchored-highlight"); 
+  $(".searchline").removeClass("grey"); 
+  $('div').removeClass("anchored-highlight"); 
+    $("div").removeClass("featured"); 
+    $("span").removeClass("text-danger"); 
     $("input#quicksearch").val(""); 
     $("#filters").val($("#filters option:first").val());
     $("#filters-two").val($("#filters-two option:first").val());
@@ -34,11 +36,10 @@ params.delete('q');
 window.history.replaceState({}, '', location.pathname + '?' + p );
  });
 
-$("tr").click(function() {
+$(".searchline").click(function() {
  if ($(this).hasClass('grey')) {
    $(this).removeClass("grey"); 
-  $(this).addClass("featured"); 
-    console.log("show");}
+  $(this).addClass("featured"); }
     else{}
  });
 
@@ -58,9 +59,9 @@ window.history.replaceState({}, '', location.pathname + '?' + p );
     filterplain = input.value; 
     filter = input.value.toUpperCase();
      itemcontainer = document.getElementById("contents-container");
-     item = itemcontainer.getElementsByClassName("searchline");
+     item = itemcontainer.getElementsByTagName("section");
      for (i = 0; i < item.length; i++) {
-       itemcontents = item[i].getElementsByClassName("playline")[1];
+       itemcontents = item[i].getElementsByTagName("div")[0];
        var index = itemcontents.innerHTML.indexOf(filterplain);
        console.log(filter + index)
        if (itemcontents) {

@@ -3,17 +3,32 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-.annotation {max-height: 30px; overflow: hidden;
-    font-size: 1.1rem;
+.annotation {
+    background-color: transparent;
+    
+    padding: .5em;
+    width: 15vw;  
+    font-size: .8rem !important;
     vertical-align: baseline;
     position: relative;
 z-index:10;
 font-size: smaller;
-cursor: pointer;}
+cursor: pointer;
+max-height: 30px;
+
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px;
+}
+}
 
 .annotate-show{
+    p{
     overflow:visible;
-    background-color:#fff !important;
+    white-space: normal !important;
+    background-color:#fff !important;}
 }
 
 .annotated{
