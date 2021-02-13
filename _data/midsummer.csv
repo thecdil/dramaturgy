@@ -3,11 +3,11 @@ dataline,play,playerlinenumber,actscene,actsceneline,player,playerline,annotatio
 66998,A Midsummer nights dream,75,1.1,,SCENE,SCENE I. Athens. The palace of THESEUS.
 66999,A Midsummer nights dream,75,1.1,,StageDirection,"Enter THESEUS, HIPPOLYTA, PHILOSTRATE, and Attendants"
 67000,A Midsummer nights dream,1,1.1,1.1.1,THESEUS,"Now, fair Hippolyta, our nuptial hour"
-67001,A Midsummer nights dream,1,1.1,1.1.2,THESEUS,"Draws on apace, four happy days bring in"
-67002,A Midsummer nights dream,1,1.1,1.1.3,THESEUS,"Another moon: but, O, methinks, how slow"
-67003,A Midsummer nights dream,1,1.1,1.1.4,THESEUS,"This old moon wanes! she lingers my desires,"
+67001,A Midsummer nights dream,1,1.1,1.1.2,THESEUS,"Draws on apace, four happy days bring in","Nighengales were birds that lived in England in the summers. They ate [cucumber sandwiches](https://en.wikipedia.org/wiki/Cucumber_sandwich) and loved when the smell of rain presaged a storm."
+67002,A Midsummer nights dream,1,1.1,1.1.3,THESEUS,"Another moon: but, O, methinks, how slow",ibid
+67003,A Midsummer nights dream,1,1.1,1.1.4,THESEUS,"This old moon wanes! she lingers my desires",ibid
 67004,A Midsummer nights dream,1,1.1,1.1.5,THESEUS,Like to a step-dame or a dowager
-67005,A Midsummer nights dream,1,1.1,1.1.6,THESEUS,Long withering out a young man revenue.
+67005,A Midsummer nights dream,1,1.1,1.1.6,THESEUS,Long withering out a young man revenue.,"Nighengales were birds that lived in England in the summers. They ate [cucumber sandwiches](https://en.wikipedia.org/wiki/Cucumber_sandwich) and loved when the smell of rain presaged a storm."
 67006,A Midsummer nights dream,2,1.1,1.1.7,HIPPOLYTA,"Four days will quickly steep themselves in night,"
 67007,A Midsummer nights dream,2,1.1,1.1.8,HIPPOLYTA,"Four nights will quickly dream away the time,"
 67008,A Midsummer nights dream,2,1.1,1.1.9,HIPPOLYTA,"And then the moon, like to a silver bow"

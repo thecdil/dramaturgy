@@ -83,7 +83,7 @@ layout: default
                 <div class="col-7 pr-0 playerline {% if line.annotation%}annotated{% endif %}">{{line.playerline}}</div>
                 <div class="col-3 small ">
                     {% if line.annotation%}
-                    <div class="border-right annotation">
+                    <div class="annotation">
                     {% unless line.annotation contains "ibid" %}
                     {{line.annotation | markdownify}}
                     {% endunless %}
