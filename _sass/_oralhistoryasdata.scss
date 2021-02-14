@@ -60,5 +60,9 @@ position: fixed;
   padding: 0px 5px;
 }
 
+.grey .annotation{
+  display: none;
+}
+
 .filteroptions, .searchinput{font-size:24px; 
   @include media-query($on-palm) { font-size:18px;}}
