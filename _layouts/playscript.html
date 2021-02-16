@@ -17,8 +17,8 @@ layout: default
             <button href="#search" type="button" class="btn btn-lg btn-outline-secondary" data-toggle="collapse">Search Script</button>
         </div>
     </div>
-    <div id="search" class="collapse">
-        <div class="filteroptions mx-2 bg-light p-4 mb-4">
+    <div id="search" class="card collapse bg-light">
+        <div class="filteroptions mx-2 p-4 mb-4">
             <h3 class="text-center">
                 <div class="form-inline my-2 my-lg-0 ">
                     <input type="text" id="quicksearch" placeholder="Search ... " class="searchinput form-control mr-2 col-4">
@@ -38,9 +38,8 @@ layout: default
                 <h4><span class="info2"><span id="numberof">{{ lines | size }}</span> of {{ lines | size }} rows</span>
                     (click a
                     missing row to make it appear)</h4>
-
+                </div>
         </div>
-    </div>
     <div id="contents-container">
         {% for line in lines %}
         {% unless line.player == "ACT" or line.player == "SCENE" %}
