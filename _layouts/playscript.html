@@ -26,21 +26,24 @@ layout: default
 
 <div class="container">
     <div class="container">
-        <header>
-            <h2 class="poet-name my-2">{{ featured_scene}}</h2>
-        </header>
+        <div class="row my-5">
+            <div class="col-md-3">
+                <h1>{{ page.title }}</h1>
+            </div>
+            <div class="col-md-9">
+                <button href="#search" type="button" class="btn btn-lg btn-outline-secondary" data-toggle="collapse">Search Script</button>
+            </div>
+        </div>
+        <div id="search" class="collapse">
         <div class="filteroptions mx-2 bg-light p-4 mb-4">
             <h3 class="text-center">
                 <div class="form-inline my-2 my-lg-0 ">
-                    <input type="text" id="quicksearch" placeholder="Search ... "
-                        class="searchinput form-control mr-2 col-4">
-                    <input class="searchinput mx-2 btn btn-lg btn-primary col-2" title="Search" value="Go" alt="Search"
-                        id="goButton" onclick="filterItems()">
+                    <input type="text" id="quicksearch" placeholder="Search ... " class="searchinput form-control mr-2 col-4">
+                    <input class="searchinput mx-2 btn btn-lg btn-primary col-2" title="Search" value="Go" alt="Search" id="goButton" onclick="filterItems()">
                     <button class="reset btn btn-secondary ml-2" href="#" data-filter="" class="filter">Reset
                         Filters</button>
                 </div>
-                <h2><span class="h6">Filter by topic:</span> <select id="filters" title="Jump to a year"
-                        class="filteroptions" style="max-width: 100%;">
+                <h2><span class="h6">Filter by topic:</span> <select id="filters" title="Jump to a year" class="filteroptions" style="max-width: 100%;">
                         <option value="#" selected="selected reset">On All Topics</option>
                         {% for filter in uniquePlayers %}
                         <option value="{{ filter }}">{{filter | capitalize}}</option>
@@ -53,6 +56,7 @@ layout: default
                     (click a
                     missing row to make it appear)</h4>
 
+        </div>
         </div>
     </div>
     <div id="contents-container">
@@ -68,29 +72,29 @@ layout: default
                 <p><em>{{line.playerline}}</em></p>
             </div>
         </section>
-            {% elsif line.actsceneline %}
-            {% unless line.player == prev_player %}
-            <div class="{{ line.player }} row mt-3 playline">
-                <div class="col-1 small"></div>
-                <div class="col-8 col-md-9 font-weight-bold">
-                    <p class="mb-0 playerline">
-                        {{line.player | remove: ":"}}: </p>
-                </div>
+        {% elsif line.actsceneline %}
+        {% unless line.player == prev_player %}
+        <div class="{{ line.player }} row mt-3 playline">
+            <div class="col-1 small"></div>
+            <div class="col-8 col-md-9 font-weight-bold">
+                <p class="mb-0 playerline">
+                    {{line.player | remove: ":"}}: </p>
             </div>
-            {% endunless %}
-            <div id="{{ line.dataline }}" class="{{ line.player }} row playline textline">
-                <div class="col-1 small" id="{{ line.actsceneline }}">{{ actsceneline }}</div>
-                <div class="col-7 pr-0 playerline {% if line.annotation%}annotated{% endif %}">{{line.playerline}}</div>
-                <div class="col-3 small ">
-                    {% if line.annotation%}
-                    <div class="annotation">
+        </div>
+        {% endunless %}
+        <div id="{{ line.dataline }}" class="{{ line.player }} row playline textline">
+            <div class="col-1 small" id="{{ line.actsceneline }}">{{ actsceneline }}</div>
+            <div class="col-7 pr-0 playerline {% if line.annotation%}annotated{% endif %}">{{line.playerline}}</div>
+            <div class="col-3 small ">
+                {% if line.annotation%}
+                <div class="annotation">
                     {% unless line.annotation contains "ibid" %}
                     {{line.annotation | markdownify}}
                     {% endunless %}
-                    </div>
-                    {% endif %}
                 </div>
+                {% endif %}
             </div>
+        </div>
         </section>
         {% endif %}
         {% endunless %}
