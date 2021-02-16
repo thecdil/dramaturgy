@@ -8,33 +8,16 @@ layout: default
 {%- assign players = players_play | split: ";" -%}
 {%- assign uniquePlayers = players | uniq -%}
 
-
-<!--<div class="container-fluid">
-    
-{% assign notes = site.data.notes[page.object-id] %}
-      <div class="row">
-          <div class="col-md-3">
-    <img src="{{site.baseurl}}/images/portraits/{{ page.object-id}}.png">
-<ul id="notes-container">
-    {% for note in notes %}
-<li class="hidden-all {{note.tag | replace: ";"," "}}"><a class="filter" href="#{{note.quote | truncatewords: 5,""}}" onclick="highlight('{{note.quote}}')" data-filter="{{note.quote | truncatewords: 5,""}}">{{note.detail}}</a></li>
-   {% endfor %}
-  </ul>
-</div>
-       <div class="col-md-9">-->
-
-
 <div class="container">
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-md-3">
-                <h1>{{ page.title }}</h1>
-            </div>
-            <div class="col-md-9">
-                <button href="#search" type="button" class="btn btn-lg btn-outline-secondary" data-toggle="collapse">Search Script</button>
-            </div>
+    <div class="row my-5">
+        <div class="col-md-3">
+            <h1>{{ page.title }}</h1>
         </div>
-        <div id="search" class="collapse">
+        <div class="col-md-9">
+            <button href="#search" type="button" class="btn btn-lg btn-outline-secondary" data-toggle="collapse">Search Script</button>
+        </div>
+    </div>
+    <div id="search" class="collapse">
         <div class="filteroptions mx-2 bg-light p-4 mb-4">
             <h3 class="text-center">
                 <div class="form-inline my-2 my-lg-0 ">
@@ -56,7 +39,6 @@ layout: default
                     (click a
                     missing row to make it appear)</h4>
 
-        </div>
         </div>
     </div>
     <div id="contents-container">
@@ -105,3 +87,4 @@ layout: default
         <hr />
 
     </div>
+</div>
