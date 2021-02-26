@@ -79,12 +79,24 @@ layout: default
         {% endunless %}
         <div id="{{ line.dataline }}" class="{{ line.player }} row playline textline">
             <div class="col-1 small" id="{{ line.actsceneline }}">{{ actsceneline }}</div>
-            <div class="col-7 pr-0 playerline {% if line.annotation%}annotated{% endif %}">{{line.playerline}}</div>
+            <div class="col-7 pr-0 playerline {% if line.annotation%}annotated{% endif %} {% if line.performance-tip%}performance-annotated{% endif %}">{{line.playerline}}</div>
             <div class="col-3 small ">
                 {% if line.annotation%}
                 <div class="annotation">
+                    {% if line.image%}
+                    <a href="{{line.image}}" target="_blank"><img src="{{line.image}}" style="height:70px;"></a>
+                    {% endif %}
                     {% unless line.annotation contains "ibid" %}
                     {{line.annotation | markdownify}}
+                    {% endunless %}
+                </div>
+                {% elsif line.performance-tip %}
+                <div class="annotation">
+                    {% if line.image%}
+                    <a href="{{line.image}}" target="_blank"><img src="{{line.image}}" style="height:70px;"></a>
+                    {% endif %}
+                    {% unless line.performance-tip contains "ibid" %}
+                    {{line.performance-tip | markdownify}}
                     {% endunless %}
                 </div>
                 {% endif %}
