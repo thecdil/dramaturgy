@@ -18,6 +18,8 @@ function makeCard(obj) {
       thumbSrc = '{{ "/assets/img/video.svg" | relative_url }}';  
     } else if (obj.format.includes("pdf")) {
       thumbSrc = '{{ "/assets/img/pdf.svg" | relative_url }}';
+    } else if (obj.format.includes("html")) {
+      thumbSrc = '{{ "/assets/img/file.svg" | relative_url }}';
     } else {
       thumbSrc = '{{ "/assets/img/file.svg" | relative_url }}';
     }  

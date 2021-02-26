@@ -40,6 +40,9 @@
         } else if (format.includes('video')) {
             itemImage= '<video controls class="w-100"><source src="' + objectLink + '" type="' + format + '">Your browser does not support the audio element.</audio>';
             itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-dark" title="Object download">Download Video File</a>';
+        } else if (format.includes('html')) {
+            itemImage= '<img class="w-50" src="{{ "/assets/img/file.svg" | relative_url }}" alt="No preview found">';
+            itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-dark" title="Object download">View Source</a>';
         } else {
             /* fall back to no preview if it doesn't know the format */
             itemImage= '<img class="w-50" src="{{ "/assets/img/file.svg" | relative_url }}" alt="No preview found">';
