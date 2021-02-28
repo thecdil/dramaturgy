@@ -2,6 +2,7 @@
 layout: default
 ---
 {% assign lines = site.data.midsummer | where: "actscene", page.actscene %}
+{%- assign items = site.data[site.metadata] -%}
 
 {%- comment -%} find all words used in the player field of our metadata {%- endcomment -%}
 {% capture players_play %}{% for line in lines %}{% unless line.player == "ACT" or line.player == "SCENE" %}{{- line.player -}};{% endunless %}{% endfor %}{% endcapture%}
@@ -79,25 +80,33 @@ layout: default
         {% endunless %}
         <div id="{{ line.dataline }}" class="{{ line.player }} row playline textline">
             <div class="col-1 small" id="{{ line.actsceneline }}">{{ actsceneline }}</div>
-            <div class="col-7 pr-0 playerline {% if line.annotation%}annotated{% endif %} {% if line.performance-tip%}performance-annotated{% endif %}">{{line.playerline}}</div>
+            <div class="col-7 pr-0 playerline {% if line.annotation %}annotated{% endif %} {% if line.performance-tip %}performance-annotated{% endif %}">{{ line.playerline }}</div>
             <div class="col-3 small ">
-                {% if line.annotation%}
+                {% if line.annotation %}
                 <div class="annotation">
-                    {% if line.image%}
-                    <a href="{{line.image}}" target="_blank"><img src="{{line.image}}" style="height:70px;"></a>
-                    {% endif %}
                     {% unless line.annotation contains "ibid" %}
-                    {{line.annotation | markdownify}}
+                    {{ line.annotation | markdownify }}
                     {% endunless %}
+                    {% if line.objectid %}
+                    {% for i in items %}
+                    {% if i.objectid == line.objectid %}
+                    <a href="{{ line.objectid | prepend: '/dramaturgy/item.html?id=' }}"><img src="{{ i.filename }}" style="height:70px;"></a>
+                    {% endif %}
+                    {% endfor %}
+                    {% endif %}
                 </div>
                 {% elsif line.performance-tip %}
                 <div class="annotation">
-                    {% if line.image%}
-                    <a href="{{line.image}}" target="_blank"><img src="{{line.image}}" style="height:70px;"></a>
-                    {% endif %}
                     {% unless line.performance-tip contains "ibid" %}
-                    {{line.performance-tip | markdownify}}
+                    {{ line.performance-tip | markdownify }}
                     {% endunless %}
+                    {% if line.objectid %}
+                    {% for i in items %}
+                    {% if i.objectid == line.objectid %}
+                    <a href="{{ line.objectid | prepend: '/dramaturgy/item.html?id=' }}"><img src="{{ i.filename }}" style="height:70px;"></a>
+                    {% endif %}
+                    {% endfor %}
+                    {% endif %}
                 </div>
                 {% endif %}
             </div>
