@@ -5,5 +5,7 @@ layout: default
   {{ content }}
 </div>
 
+{% unless page.title == "Home" %}
 {% include credits.html %}
+{% endunless %}
 
