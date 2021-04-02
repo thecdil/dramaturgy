@@ -6,3 +6,4 @@ permalink: /timeline.html
 ---
 
 ## Collection Timeline
+This timeline features all of the resources that we used in our research, arranged chronologically. 
