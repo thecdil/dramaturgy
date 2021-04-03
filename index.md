@@ -29,3 +29,16 @@ As part of this research, we used the static web tool [Collection Builder](https
 
 The project began after [Dr. Sarah Campbell](https://www.uidaho.edu/class/theatre/faculty-staff/sarah-campbell) received a Faculty Development Fellowship from the CDIL in fall 2020. As part of this fellowship, Sarah worked with Olivia Wikle, Evan Williamson, and Devin Becker to learn the basics of GitHub, [Collection Builder](https://collectionbuilder.github.io/), and [Oral History as Data](https://uidaholib.github.io/oral-history-as-data/). 
 
+{% include feature/item-pdf-embed.html objectid="midsummer07" width="50" %}
+
+Ut tincidunt gravida mauris, sit amet hendrerit nulla molestie nec. 
+Sed aliquet in purus nec elementum. 
+Vestibulum pellentesque malesuada ipsum, eget auctor ex.
+
+{% include feature/item-video-embed.html objectid="midsummer02" %}
+
+Vivamus vel laoreet ipsum. Nulla massa mi, accumsan eget viverra ut, elementum ac lacus. 
+Curabitur porta, urna vel pharetra consequat, ante nisi auctor leo, eget tempor odio enim a odio. 
+Suspendisse euismod non est eu viverra.
+
+{% include feature/button.html text="Back to transcript" link="/dramaturgy/midsummer/act1_scene1.html" color="success" centered=true %}
