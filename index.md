@@ -5,13 +5,15 @@ title: Home
 
 {% include feature/jumbotron.html %}
 
-{% include feature/nav-menu.html sections="Welcome to the Collaborative Midsummer Digital Dramaturgy Project;About this PDF" %}
+{% include feature/nav-menu.html sections="Welcome;About this PDF" %}
 
-## Welcome to the Collaborative Midsummer Digital Dramaturgy Project
+## Welcome 
 
-Welcome! This site is a collaborative project between the graduate level Dramaturgical Acts course in the [Department of Theatre](https://www.uidaho.edu/class/theatre) at the University of Idaho and the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/), also at the University of Idaho. 
+Welcome to the Collaborative Midsummer Digital Dramaturgy Project! This site is a collaborative project between the graduate level Dramaturgical Acts course in the [Department of Theatre](https://www.uidaho.edu/class/theatre) at the University of Idaho and the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/), also at the University of Idaho. 
 
-The goal for our project was to translate the prototypical dramaturgy packet, created for a hypothetical production of William Shakespeare's *A Midsummer Night's Dream*, into a digital space. Questions that guided our research were: 
+The goal for our project was to translate the prototypical dramaturgy packet, created for a hypothetical production of William Shakespeare's *A Midsummer Night's Dream*, into a digital space. 
+
+**Questions that guided our research were:** 
 1. How do we understand the data we use in the field of dramaturgy? 
 2. How can we use the tools of the digital humanities to advance understandings of the field of production dramaturgy and vice versa? 
 3. What tools or manners of visualizing dramaturgical research might be helpful to those who work on a production of play? 
@@ -25,13 +27,9 @@ Let's link back to [Act 2](/dramaturgy/midsummer/act2_scene1.html), just for fun
 
 {% include feature/item-figure.html objectid="midsummer01" width="50" %}
 
-## About this PDF
+## Brief History
 
-Cras vestibulum gravida nunc, a venenatis metus. 
-Sed ullamcorper, metus non hendrerit convallis, felis urna maximus sem, ut interdum massa elit a est. 
-Nullam fringilla facilisis nulla sit amet facilisis. 
-Etiam vehicula sodales dolor, sed iaculis libero ultrices sed. 
-Sed dictum ipsum et faucibus vulputate.
+The project began after [Dr. Sarah Campbell](https://www.uidaho.edu/class/theatre/faculty-staff/sarah-campbell) received a Faculty Development Fellowship from the CDIL in fall 2020. As part of this fellowship, Sarah worked with Olivia Wikle, Evan Williamson, and Devin Becker to learn the basics of GitHub, [Collection Builder](https://collectionbuilder.github.io/), and [Oral History as Data](https://uidaholib.github.io/oral-history-as-data/). 
 
 {% include feature/item-pdf-embed.html objectid="midsummer07" width="50" %}
 
