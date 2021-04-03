@@ -5,7 +5,7 @@ title: Home
 
 {% include feature/jumbotron.html %}
 
-{% include feature/nav-menu.html sections="Welcome;About this PDF" %}
+{% include feature/nav-menu.html sections="Welcome;Brief History" %}
 
 ## Welcome 
 
