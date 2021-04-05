@@ -15,7 +15,7 @@ The earliest performance was most likely “the wedding in 1596 of Elizabeth Car
 
 {% include feature/item-figure.html objectid="midsummer0025" width="25" %}
 
-## How Could it Have Been Staged?
+### How Could it Have Been Staged?
 
 In these circumstances, the performance would have been limited in its playing space. A raised bare stage and rear curtain might have been all the players had to help tell their story. Like all of Shakespeare’s plays, the words spoken in the script are used to help the audience forgo their disbelief and imagine the world of the play.  
  
@@ -23,7 +23,7 @@ For example, in the opening of Act II of A Midsummer Night’s Dream, the Fai
 
 In Act II scene 1, Oberon describes all the floral canopy of Titania’s bower as a “bank where the wild thyme blows, Where oxlips and the nodding violet grows, Quite overcanopied with luscious woodbine, With sweet muskroses, and with eglantine” (2.1.257). By describing the scene with words, the audience would have been able to envision the bower even with limited scenery and props.  
 
-### Public Performance
+## Public Performance
 
 From the title page of the play in Shakespeare’s First Quarto (Figure 2), it is clear the play has been publicly performed several (or sundry) times by 1600. So, it is important to see where The Lord Chamberlain’s Men might have staged these performances in publicly, not just private gatherings like weddings or other exclusive events.  
 
