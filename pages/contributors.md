@@ -14,10 +14,10 @@ Charissa's original one-woman musical, *My 80-Year-Old Boyfriend* (Merrimack R
  
 In addition to her own writing and producing projects, she is currently a professor at New York Film Academy’s Professional Conservatory of Musical Theatre, pursuing an MFA from the University of Idaho, and a proud member of Actors’ Equity and SAG-AFTRA. Visit her website [here.](www.charissa.nyc) 
 
-{% include feature/item-figure.html objectid="Bertels_headshot" width="25" %}
-{% raw %}{% include feature/item-figure.html objectid="Bertels_headshot.jpg" width="25" %}{% endraw %}
+{% include feature/item-figure.html objectid="Bertels_headshot.jpg" width="25" %}
+
 
 **Jennifer Arbogast Wilson** is in her first year of the distance-learning Directing program in the theatre department at the University of Idaho.  A native of Columbus, Ohio, Jennifer now resides in Chattanooga, Tennessee, where she is a professor of music and theatre at Chattanooga State Community College.  Jennifer’s main teaching includes private voice lessons to music and theatre majors, voice and speech courses, and directing musical theatre productions.  She holds a Doctor of Arts degree in Vocal Performance with a secondary emphasis in Speech-Language Pathology from Ball State University in Muncie, Indiana.  When Jennifer is not busy with theatre or music, she enjoys life with her fantastic husband Jonathan, their dog Romeo, and their cat Benvolio.  Jennifer and Jonathan are looking forward to welcoming the arrival of their first child near the completion of this Midsummer project!
 
 {% include feature/item-figure.html objectid="Wilson_headshot.jpg" width="25" %}
-{% raw %}{% include feature/item-figure.html objectid="Wilson_headshot.jpg" width="25" %}{% endraw %}
+
