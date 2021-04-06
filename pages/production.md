@@ -15,7 +15,7 @@ The earliest performance was most likely “the wedding in 1596 of Elizabeth Car
 
 {% include feature/item-figure.html objectid="midsummer0025" width="25" %}
 
-#### **How Could it Have Been Staged?**
+#### How Could it Have Been Staged?
 
 In these circumstances, the performance would have been limited in its playing space. A raised bare stage and rear curtain might have been all the players had to help tell their story. Like all of Shakespeare’s plays, the words spoken in the script are used to help the audience forgo their disbelief and imagine the world of the play.  
  
