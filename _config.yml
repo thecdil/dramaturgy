@@ -12,7 +12,7 @@ url: https://thecdil.github.io
 # baseurl is your github repository's name prefixed with a /
 baseurl: /dramaturgy
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/dramaturgy
+source-code: https://github.com/thecdil/dramaturgy
 
 ##########
 # SITE SETTINGS
@@ -23,7 +23,7 @@ title: Annotated Midsummer
 tagline: a collaborative annotation of Shakespeare's A Midsummer Night's Dream
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
+description: "a collaborative annotation of Shakespeare's A Midsummer Night's Dream"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 
