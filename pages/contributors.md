@@ -19,3 +19,21 @@ In addition to her own writing and producing projects, she is currently a profes
 **Jennifer Arbogast Wilson** is in her first year of the distance-learning Directing program in the theatre department at the University of Idaho.  A native of Columbus, Ohio, Jennifer now resides in Chattanooga, Tennessee, where she is a professor of music and theatre at Chattanooga State Community College.  Jennifer’s main teaching includes private voice lessons to music and theatre majors, voice and speech courses, and directing musical theatre productions.  She holds a Doctor of Arts degree in Vocal Performance with a secondary emphasis in Speech-Language Pathology from Ball State University in Muncie, Indiana.  When Jennifer is not busy with theatre or music, she enjoys life with her fantastic husband Jonathan, their dog Romeo, and their cat Benvolio.  Jennifer and Jonathan are looking forward to welcoming the arrival of their first child near the completion of this Midsummer project!
 
 {% include feature/image.html src="/objects/Wilson_headshot.jpg" width="25" %}
+
+# Our Team
+
+{%- assign people = site.data.people -%}
+{% for p in people %}
+
+<div class="row py-2">
+    <div class="col-md-2 text-center">
+        {%- assign photo = p.image | prepend: '/images/team/' -%}
+        {% capture caption %}{{ p.name }}{% endcapture %}
+        {% include feature/image.html src=photo caption=p.name %}
+    </div>
+    <div class="col-md-10 align-self-center">
+        <strong>{{ p.name }}</strong> {{ p.description }}
+    </div>
+</div>
+    
+{% endfor %}
