@@ -13,12 +13,13 @@ permalink: /contributors.html
 {% for p in people %}
 
 <div class="row py-3 contributors">
-    <div class="col-md-3 pt-2 text-center">
+    <div class="col-md-3 text-center">
         {%- assign photo = p.image | prepend: '/images/team/' -%}
         {% capture caption %}{{ p.name }}{% endcapture %}
-        {% include feature/image.html src=photo caption=p.name %}
+        {% capture alt-text %}headshot of {{ p.name }}{% endcapture %}
+        {% include feature/image.html src=photo alt=alt-text caption=caption %}
     </div>
-    <div class="col-md-9">
+    <div class="col-md-9 align-self-center">
         {{ p.description | markdownify }}
     </div>
 </div>
