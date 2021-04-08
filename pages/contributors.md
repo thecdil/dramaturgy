@@ -12,7 +12,7 @@ permalink: /contributors.html
 
 Charissa's original one-woman musical, *My 80-Year-Old Boyfriend* (Merrimack Repertory Theatre, Arizona Theatre Company, Human Race Theatre Company), garnered rave reviews and an IRNE award for Best Solo Performance. Her newest collaboration, *The Uncivil Ones,* features unheard female, trans and non-binary voices from The Civil War and garnered the 2019 Special Mention for the Women in Arts & Media Coalition Collaboration Award. 
  
-In addition to her own writing and producing projects, she is currently a professor at New York Film Academy’s Professional Conservatory of Musical Theatre, pursuing an MFA from the University of Idaho, and a proud member of Actors’ Equity and SAG-AFTRA. Visit her website [here.](www.charissa.nyc) 
+In addition to her own writing and producing projects, she is currently a professor at New York Film Academy’s Professional Conservatory of Musical Theatre, pursuing an MFA from the University of Idaho, and a proud member of Actors’ Equity and SAG-AFTRA. Visit [Charissa Bertels website](https://www.charissa.nyc/) for more information.
 
 {% include feature/image.html src="/objects/Bertels_headshot.jpg" width="25" %}
 
