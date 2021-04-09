@@ -64,7 +64,4 @@ Whether you have a modern stage with elaborate scenery and set pieces or a simpl
  
 Examine how you can use the architecture of your playing space to add to the “fairy magic” of the play with surprising entrances like the ones that might have occurred at The Curtain. Even if you don’t have an under-stage series of tunnels, can you have actors appear and reappear quickly in a new location?  
 
-## Works Cited
-
-"Archaeologists Uncover the Stage and Other Treasures at Shakespeare’s Curtain  
-Theatre". *Culture24.Org.UK*, 2021, https://www.culture24.org.uk/history-and-heritage/archaeology/art565141-archaeologists-find-Shakespeares-stage-at-Curtain-theatre.
+## Sources and Further Reading
