@@ -65,3 +65,7 @@ Whether you have a modern stage with elaborate scenery and set pieces or a simpl
 Examine how you can use the architecture of your playing space to add to the “fairy magic” of the play with surprising entrances like the ones that might have occurred at The Curtain. Even if you don’t have an under-stage series of tunnels, can you have actors appear and reappear quickly in a new location?  
 
 ## Sources and Further Reading
+
+{% include feature/item-figure.html objectid="midsummer0060" width="25" %}
+
+{% include feature/item-figure.html objectid="midsummer0061" width="25" %}
