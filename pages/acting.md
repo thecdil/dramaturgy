@@ -9,7 +9,7 @@ permalink: /acting.html
 
 In this series, MFA Candidate in Directing, Autumn Tustin, has created various tutorials for you to use in the classroom and rehearsal room. 
 
-{% include feature/nav-menu.html sections="About Autumn;A Short Disclaimer;How to Warmup for a Shakespearean Performance;How to Use this Page;Tools for Shakespearean Line Delivery;" %}
+{% include feature/nav-menu.html sections="About Autumn;A Short Disclaimer;How to Use this Page;How to Warm up for a Shakespearean Performance;Tools for Shakespearean Line Delivery;" %}
 
 
 ## About Autumn
@@ -20,11 +20,16 @@ My name is Autumn and I have always loved Shakespeare! In middle school, I was t
 
 ## A Short Disclaimer
 
+The reality is that everyone has a different interpretation of how to act Shakespeare “correctly.” Some focus on the voice, some focus on the text, some the relationships onstage and with the audience. The truth is, they are all correct! There is really no one “correct” way to do Shakespeare, so take some of that pressure off yourself to be perfect.
 
-## How to Warmup for a Shakespearean Performance
-
+This page is not at all meant to tear down any approach but rather to build an understanding of how to act Shakespeare for someone with little-to-no previous experience. This series was developed using tools from my own training and experience and it might differ from the next Shakespeare professional’s advice. What matters is that *you* find the best way that you connect with the text and breathe life and energy into it! The good news is that we all get to learn and try something new!
 
 ## How to Use this Page
 
-## Tools for Shakespearean Line Delivery
+### How to Warm up for a Shakespearean Performance
 
+
+### Tools for Shakespearean Line Delivery
+
+
+### Tools for Decoding Shakespeare
