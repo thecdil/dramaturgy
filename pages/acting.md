@@ -140,6 +140,17 @@ Instead of letting the lightbulb moments or motivation happen when it is quiet o
 
 Here’s why it’s so hard for contemporary actors to embrace this style of acting: it doesn’t feel natural! We’ve been taught to experience emotion and then let the audience see what we’re feeling. There are so many powerful moments in contemporary drama where text is unnecessary: we completely understand the character without them having to use words. If possible, try to think of Shakespearean acting as the *opposite* of that. We have to have the words to know what the character is feeling, and it’s only by using the words that the audience can fully understand what the characters are going through. The other truth is that if Shakespearean actors took the time to more naturally move from one emotion to another, we’d be looking at a twelve hour *Romeo and Juliet.* Nobody wants to sit for that long, so that’s why thinking on the line is a great skill to start trying out! 
 
+### Contemporary versus Classical Approaches
+
+Let’s talk just a bit about Contemporary versus Classical text approaches. We’ve all watched enough Netflix to know that *Pretty Little Liars* is quite a bit different from *Romeo and Juliet,* but why? What are the hallmark differences?
+
+In this section, we will start by reviewing two videos that can be found on YouTube. [Video 1](https://www.youtube.com/watch?v=--tWffBTyqM), featuring Paapa Essiedu's interpretation of Hamlet's soliloquy from act three scene one and [Video 2](https://www.youtube.com/watch?v=q6CLdCl9TB0), featuring Andrew Scott's interpretation of the same soliloquy. 
+
+If you watch the two videos above, you’ll see two very different approaches to acting Shakespearean text, specifically Hamlet’s famous soliloquy. Paapa Essiedu (in the production at the Royal Shakespeare Company) takes on the challenge with many classical skills driving his performance. His mouth, body, and voice are physically invested (he’s definitely warmed up!), he’s thinking on the line, taking cues from the text by focusing on alliterations and the sound quality of the vowels/consonants. His performance is gripping on the stage because he’s communicating thought chunks and keeping the audience engaged with each operative word. 
+
+Andrew Scott, on the other hand, is approaching the text with a much more contemporary style. His body isn’t as physically engaged, but his facial expressions are raw and powerful. He takes his time with the text, reveling in each new discovery as he explains it to the audience, bringing them very close to his emotions. Instead of communicating each thought chunk, he has chosen specific moments to drive home with the audience, sometimes speeding through text in order to find his perfect moment. 
+
+In my opinion, Andrew’s style is gorgeous for the screen and Paapa’s style is perfectly suited for the stage. Consider what your production is going to look like and which style you may want to adopt. How can you make sure the last row of the theatre gets the same experience as the front? Are your facial expressions too large for a camera? These are great questions to consider as you shape your performance. 
 
 
 ## Tools for Decoding Shakespeare
