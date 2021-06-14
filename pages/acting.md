@@ -112,7 +112,7 @@ Once you’ve completed your facial warm-up, it’s time to move on to a whole b
 
 ## Tools for Shakespearean Line Delivery
 
-1. Thought Chunking 
+1. **Thought Chunking** 
 
 {% include feature/item-video-embed.html objectid="midsummer0069" %} 
 
@@ -124,10 +124,10 @@ In monologues, the text usually explores one big idea at a time. Instead of tryi
 
 In the video, I approach the first four lines of Portia’s monologue in *The Merchant of Venice:* 
 
-{% include feature/alert.html text="The quality of mercy is not strained;
-It droppeth as the gentle rain from heaven
-Upon the place beneath. It is twice blest;
-It blesseth him that gives and him that takes" color="warning" align="center" %}
+    The quality of mercy is not strained;
+    It droppeth as the gentle rain from heaven
+    Upon the place beneath. It is twice blest;
+    It blesseth him that gives and him that takes. 
 
 To me, these first four lines can be broken into two small thought chunks. The first one is about mercy being easy and free (like the rain), and the second begins the discussion of how mercy affects those who give and receive it. Now that I know what it means and what the two thoughts are, I can communicate the thoughts instead of focusing on the exact words that I’m saying. It sounds much more natural, and it helps the audience understand the idea I’m trying to communicate. Did you hear that?
 
@@ -135,7 +135,7 @@ Go through your text and start marking the thought chunks you see with parenthes
 
 Thought chunking your text is also an incredibly helpful memorization tool! Instead of trying to remember words that you don’t normally use with your friends, remember the order of thought chunks. Most likely, once you remember the idea, the specific Shakespearean words will follow. 
 
-2. Thinking on the Line 
+2. **Thinking on the Line** 
 
 {% include feature/item-video-embed.html objectid="midsummer0070" %} 
 
