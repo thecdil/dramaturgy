@@ -152,5 +152,37 @@ Andrew Scott, on the other hand, is approaching the text with a much more contem
 
 In my opinion, Andrew’s style is gorgeous for the screen and Paapa’s style is perfectly suited for the stage. Consider what your production is going to look like and which style you may want to adopt. How can you make sure the last row of the theatre gets the same experience as the front? Are your facial expressions too large for a camera? These are great questions to consider as you shape your performance. 
 
+### Consonants, Vowels, and Alliteration
+
+{% include feature/item-video-embed.html objectid="midsummer0071" %} 
+
+Shakespeare is known for making up words but at the end of the day he built them with the same old consonants and vowels that we’ve always used. In typical Shakespearean style, he left us clues for how to interpret what he wanted to see in the performance.
+
+When you break down your text to the basics, it may offer you a glimpse into the mindset he had whilst writing different characters. For instance, Titania’s monologue starts out with powerful sounding consonants and short vowels, the first thought chunk ending with b’s and t’s to drive home her displeasure at the circumstances she and Oberon find themselves in: 
+“These are the forgeries of jealousy:
+And never, since the middle summer's spring,
+Met we on hill, in dale, forest or mead,
+By paved fountain or by rushy brook,
+Or in the beached margent of the sea,
+To dance our ringlets to the whistling wind, 
+But with thy brawls thou hast disturb'd our sport.”
+
+We can interpret from the shortness of the vowel sounds and the harsher consonants that Titania is a powerful character, almost spitting some of her sounds at whoever is meant to receive the monologue. 
+
+In one of Helena’s monologues, we see a completely different kind of writing. She has many open O and I sounds, allowing for elongation of the words. The consonants are softer and less biting in nature:
+“Things base and vile, holding no quantity,
+Love can transpose to form and dignity.
+Love looks not with the eyes, but with the mind,
+And therefore is winged Cupid painted blind.
+Nor hath Love's mind of any judgment taste;
+Wings, and no eyes, figure unheedy haste.
+And therefore is Love said to be a child,
+Because in choice he is so oft beguiled.”
+
+We can assume from the text that Helena (after getting through some whining at the start) is inspired by love and speaking more poetically. She’s painting a picture with fluffy clouds, as opposed to Titania’s dark and stormy ones. 
+
+Lastly, Shakespeare often used alliteration, antithesis, and assonance to catch the audience’s attention. Read your text aloud to get a better sense of what you may be missing by just scanning the text in your mind! 
+
+
 
 ## Tools for Decoding Shakespeare
