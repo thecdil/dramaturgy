@@ -124,9 +124,9 @@ In monologues, the text usually explores one big idea at a time. Instead of tryi
 
 In the video, I approach the first four lines of Portia’s monologue in *The Merchant of Venice:* 
 
-{% include feature/alert.html text="The quality of mercy is not strained;\
-It droppeth as the gentle rain from heaven\
-Upon the place beneath. It is twice blest;\
+{% include feature/alert.html text="The quality of mercy is not strained;
+It droppeth as the gentle rain from heaven
+Upon the place beneath. It is twice blest;
 It blesseth him that gives and him that takes" color="warning" align="center" %}
 
 To me, these first four lines can be broken into two small thought chunks. The first one is about mercy being easy and free (like the rain), and the second begins the discussion of how mercy affects those who give and receive it. Now that I know what it means and what the two thoughts are, I can communicate the thoughts instead of focusing on the exact words that I’m saying. It sounds much more natural, and it helps the audience understand the idea I’m trying to communicate. Did you hear that?
