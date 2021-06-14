@@ -122,12 +122,16 @@ Typically, audience ears have to spend about 5-10 minutes adjusting to the sound
 
 In monologues, the text usually explores one big idea at a time. Instead of trying to act and emphasize each and every word (that’s exhausting!), try figuring out what the big “idea” is, and see if you can shape your acting choices around the idea, or thought chunk, that needs to be communicated. 
 
-In the video, I approach the first four lines of Portia’s monologue in “The Merchant of Venice:” 
+In the video, I approach the first four lines of Portia’s monologue in *The Merchant of Venice:* 
 
 {% include feature/alert.html text="The quality of mercy is not strained;
+
 It droppeth as the gentle rain from heaven
+
 Upon the place beneath. It is twice blest;
-It blesseth him that gives and him that takes:" color="warning" align="center" %}
+
+It blesseth him that gives and him that takes
+" color="warning" align="center" %}
 
 To me, these first four lines can be broken into two small thought chunks. The first one is about mercy being easy and free (like the rain), and the second begins the discussion of how mercy affects those who give and receive it. Now that I know what it means and what the two thoughts are, I can communicate the thoughts instead of focusing on the exact words that I’m saying. It sounds much more natural, and it helps the audience understand the idea I’m trying to communicate. Did you hear that?
 
