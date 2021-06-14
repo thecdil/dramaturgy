@@ -34,6 +34,8 @@ When it comes to Shakespearean performance, the warm-up is **not to be skipped!*
 
 Shakespeare’s texts can be incredibly dense so you want to make sure you’re prepared for whatever is thrown your way. Here are some great vocal warmups to help you prepare your face, mouth, and tongue for the adventure that lies ahead. I’ve created a video and text guide to lead you through my basic warm-up.
 
+**The Vocal Warm-up** 
+
 {% include feature/item-video-embed.html objectid="midsummer0068" %} 
 
 1. Start with stretching and massaging the face (01:26)
@@ -60,6 +62,42 @@ Shakespeare’s texts can be incredibly dense so you want to make sure you’re 
 7. Thomas Tattertoot, took taught twine, to tie ten twigs, to two tall trees (7:25)
 
 8. Bone-prop practice (7:32)
+
+**The Physical Warm-up**
+
+Once you’ve completed your facial warm-up, it’s time to move on to a whole body warm-up. I didn’t include a video for this one because it’s important for you to take ownership of the songs that you want to include and the physical movements you prefer. I’ve included my personal warm-up, but feel free to add anything you think might help or make changes to anything. Just remember what’s most important: getting yourself physically ready to jump into character! 
+
+1. Pick 4-5 upbeat songs and make a warmup playlist. Get it playing and let’s begin! 
+
+2. Find about 3 feet of space around you and then start stepping side to side, toe-touching on the beat. Once you’ve gotten into your groove, raise your arms “scarecrow style” and start doing the following arm movements, maintaining your toe-touching throughout! Try to do them each for about 20 seconds without giving your arms a break in between.
+
+- Make loose fists and start small arm circles forward, gradually making the circles larger
+- Switch to small arm circles backwards and gradually make the circles larger
+- Keeping the scarecrow stance, flatten your hands and face your palms backward (thumbs down), then bounce them off of an imaginary wall behind you
+- Keeping the scarecrow stance, Imagine a doorknob in each hand and turn them back and forth with tense fingers
+- Keeping the scarecrow stance, make each hand a thumbs down, then bounce your arms up and down 
+- Keeping the scarecrow stance BUT letting your arms dangle at the elbow, switch to jumping side to side on the beat
+
+3. Shake your arms out and switch to doing squats! This should give your arms a break and work those thighs, each for 20 seconds.
+- Regular squats
+- Sumo squats (legs out at an angle)
+- Pulsing small movement just above normal squat 
+- Regular squats, but when you come up adjust the weight to one side and point your toe on the floor
+
+4. Shake your legs out and reach up to the ceiling! Then: 
+- Slowly loosen down, eventually finding a frog stance on the floor
+- Move into alternating Cat and Cow yoga poses
+- Child’s pose
+- Frog again, then stick your behind in the air and slowly roll up, one vertebrae at a time
+- Find and hold center, breathing in and out for a minute with eyes closed
+
+5. Finally, I finish with a few high energy things to make sure my blood is pumping! I try to do 30 seconds each.
+- High knees
+- butt kicks 
+- Jumping Jacks
+- Final 8 count “shake down” of arms and legs
+
+
 
 
 ## Tools for Shakespearean Line Delivery
