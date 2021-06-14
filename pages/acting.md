@@ -122,8 +122,6 @@ Typically, audience ears have to spend about 5-10 minutes adjusting to the sound
 
 In monologues, the text usually explores one big idea at a time. Instead of trying to act and emphasize each and every word (that’s exhausting!), try figuring out what the big “idea” is, and see if you can shape your acting choices around the idea, or thought chunk, that needs to be communicated. 
 
-In the video, I approach the first four lines of Portia’s monologue in *The Merchant of Venice:* "The quality of mercy is not strained;/It droppeth as the gentle rain from heaven/ Upon the place beneath. It is twice blest;/ It blesseth him that gives and him that takes."
-
 To me, these first four lines can be broken into two small thought chunks. The first one is about mercy being easy and free (like the rain), and the second begins the discussion of how mercy affects those who give and receive it. Now that I know what it means and what the two thoughts are, I can communicate the thoughts instead of focusing on the exact words that I’m saying. It sounds much more natural, and it helps the audience understand the idea I’m trying to communicate. Did you hear that?
 
 Go through your text and start marking the thought chunks you see with parenthesis. Some ideas build on the last, so your thought chunks may bleed into each other and that’s okay! How will you connect your acting of the thought chunks so the audience sees that connection and build? Some ideas are directly opposing the one that came right before. How can you make it obvious when one idea ends and another starts? 
