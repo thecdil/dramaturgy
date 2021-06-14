@@ -184,5 +184,40 @@ We can assume from the text that Helena (after getting through some whining at t
 Lastly, Shakespeare often used alliteration, antithesis, and assonance to catch the audience’s attention. Read your text aloud to get a better sense of what you may be missing by just scanning the text in your mind! 
 
 
-
 ## Tools for Decoding Shakespeare
+
+### Context 
+
+It may seem obvious, but the first thing to do when approaching Shakespeare is to **read the play**- in its entirety! Shakespearean conflict moves quickly and often without much context, so it’s important to have your own “mind map” of what’s coming- for you as the actor as well as for your character. You may even want to draw a physical map of characters and relationships as you read because intricate character interactions can happen in the blink of an eye and affect the entire play! 
+
+Grab a copy of *No Fear Shakespeare* if this process intimidates you, and get cracking! At the very least, watch or listen to the entire play so you understand what’s happening before you get to rehearsal. There’s nothing worse than showing up and being surprised by your own lines, so do your homework! 
+
+Lastly, remember the original context for Shakespeare’s productions: people paid a penny to stand in the yard for three hours and watch the story unfold. They’d bring tomatoes and rotten fruit to throw at bad actors, and they’ll belly laugh at all the inappropriate jokes! Take some of the pressure off yourself to be perfectly academic about it and have fun figuring out what it all means. 
+
+### Finding and Using Operative Words
+
+{% include feature/item-video-embed.html objectid="midsummer0072" %} 
+
+Operative words are exactly as they sound: words that operate the sentence and paint a picture for audiences. As I mentioned in the video, modern actors tend to emphasize pronouns because we’re used to contemporary playwriting where comparison of people and circumstances is often at the heart of the conflict. Shakespeare took a lot of time and energy to make sure what was most important was rendered clearly through Iambic Pentameter. Using scansion to decode Iambic Pentameter, we find that the stressed syllable rarely lands on a pronoun. In other words, the operative word is most often a verb or more interesting word within the line. 
+
+Operative words should go hand in hand with all the other skills of Shakespearean analysis so don’t worry about getting it wrong because all the other clues should point you in the right direction! I recommend circling the operative words within your lines as the very first step of analysis. This step can help you get a clearer picture of the story and where it is going before you dive into the details. Then, when you start to decode further with scansion, you should find the lines scan to prop up or pop out the operative words you’ve already marked. Consequently, if all your other tools are at odds with your operative words, you may be trying to emphasize a word that isn’t meant to be. 
+
+### Iambic Pentameter
+
+{% include feature/item-video-embed.html objectid="midsummer0073" %} 
+
+Iambic Pentameter is literally the heartbeat of Shakespeare! Iambic Pentameter is the style of verse that Shakespeare used in many of his plays. This has been written about over and over and over again by many academics, so I’ll spare you the gruesome details and simply say: 1 line of text holds 10 beats (syllables), usually made of 5 “feet,” or beat sets.  An “iambic” foot is meant to sound like a heartbeat- unstressed, STRESSED- so ten strung together in one line usually sounds like this: unstressed, STRESSED, unstressed, STRESSED, unstressed, STRESSED, unstressed, STRESSED, unstressed, STRESSED. 
+
+The process of figuring out which syllables are stressed or unstressed in your lines is called **scansion.** Scansion can very quickly get very intimidating, but the most important thing to remember about Iambic Pentameter is that Shakespeare used this style to make his lines sound natural: the rhythm of the audiences’ heartbeat is the rhythm in which it’s all meant to be said! If you get lost in trying to figure out the scansion, go back to basics and you’ll most likely be in the perfect spot. 
+
+### Word and Sentence Structure 
+
+{% include feature/item-video-embed.html objectid="midsummer0074" %} 
+
+And now for the icing on the cake, the glue that holds everything together, the last detail to join the party: the structure of Shakespearean writing!
+It may sound incredibly boring but parsing out what each and every punctuation mark in Shakespearean verse means is exciting stuff! Now, truthfully, not *every* comma has to mean something, but isn’t it more likely that the man who spent decades of his life authoring detailed stories of love, loss, and ghosts in iambic pentameter would place punctuation meaningfully? I should think so! While we know that editors have added or removed punctuation in their various editions throughout the years, attending to punctuation is still a critical way of making sense of the work.
+
+When you find a punctuation mark within any line of verse, take a moment to sit with it. Commas, hyphens, dashes, colons, semi-colons: he was specific and careful about how he placed these. A comma could signal a slight change in thought or a moment of catch breath for the actor. Colons and semi- colons often indicated a thought continuing, or finding another path. Some characters have punctuation marks scattered throughout their monologues, giving the sense that an emotion is heightened, or maybe that the character is out of breath or easily distracted. Some characters have steady verse with few interruptions, portraying confidence and courage in the face of disaster or intense action. 
+
+Any ending punctuation mark (period, exclamation point, question mark) is a full stop. The actor can take a full breath, but must *keep moving*. An idea or thought has concluded, and a new sentence will either build on it or turn from it. Either way, each ending should be marked by the actor and a choice should be made. 
+
