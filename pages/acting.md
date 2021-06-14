@@ -135,5 +135,16 @@ Go through your text and start marking the thought chunks you see with parenthes
 
 Thought chunking your text is also an incredibly helpful memorization tool! Instead of trying to remember words that you don’t normally use with your friends, remember the order of thought chunks. Most likely, once you remember the idea, the specific Shakespearean words will follow. 
 
+2. Thinking on the Line 
+
+{% include feature/item-video-embed.html objectid="midsummer0070" %} 
+
+We all know Shakespeare can be long-winded but some of his plays are five, even six hours long (and since the majority of his audience was in the pit, they were standing that whole time)! There are some tricks to shortening the run time and keeping everyone interested in the action of the play, one of which is called “thinking on the line.”
+
+Instead of letting the lightbulb moments or motivation happen when it is quiet or by taking a long and thoughtful pause, try “thinking on the line.” This means that the lightbulb goes on *as you say the line.* You are essentially discovering your emotions, ideas, and character as it is all coming out of your mouth. This invigorates the text and forces the actors to energize their words instead of their pauses. 
+
+Here’s why it’s so hard for contemporary actors to embrace this style of acting: it doesn’t feel natural! We’ve been taught to experience emotion and then let the audience see what we’re feeling. There are so many powerful moments in contemporary drama where text is unnecessary: we completely understand the character without them having to use words. If possible, try to think of Shakespearean acting as the *opposite* of that. We have to have the words to know what the character is feeling, and it’s only by using the words that the audience can fully understand what the characters are going through. The other truth is that if Shakespearean actors took the time to more naturally move from one emotion to another, we’d be looking at a twelve hour *Romeo and Juliet.* Nobody wants to sit for that long, so that’s why thinking on the line is a great skill to start trying out! 
+
+
 
 ## Tools for Decoding Shakespeare
