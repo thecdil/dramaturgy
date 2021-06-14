@@ -36,30 +36,30 @@ Shakespeare’s texts can be incredibly dense so you want to make sure you’re 
 
 {% include feature/item-video-embed.html objectid="midsummer0068" %} 
 
-Start with stretching and massaging the face "(01:26)"
+1. Start with stretching and massaging the face (01:26)
 
-Lion face/Lemon face/tongue stretch "(2:13)"
+2. Lion face/Lemon face/tongue stretch (2:13)
 
-TI-TI-TAH, DI-DI-DAH, NI-NI-NAH, LI-LI-LAH, KI-KI-KAH, GI-GI-GAH
+3. TI-TI-TAH, DI-DI-DAH, NI-NI-NAH, LI-LI-LAH, KI-KI-KAH, GI-GI-GAH (3:10)
 
-TI-TI-TI-TI-TI-TI-TI-TI-TI-TAH
-DI-DI-DI-DI-DI-DI-DI-DI-DI-DAH
-NI-NI-NI-NI-NI-NI-NI-NI-NI-NAH
-LI-LI-LI-LI-LI-LI-LI-LI-LI-LAH
-KI-KI-KI-KI-KI-KI-KI-KI-KI-KAH
-GI-GI-GI-GI-GI-GI-GI-GI-GI-GAH
+4. TI-TI-TI-TI-TI-TI-TI-TI-TI-TAH
+    DI-DI-DI-DI-DI-DI-DI-DI-DI-DAH
+    NI-NI-NI-NI-NI-NI-NI-NI-NI-NAH
+    LI-LI-LI-LI-LI-LI-LI-LI-LI-LAH
+    KI-KI-KI-KI-KI-KI-KI-KI-KI-KAH
+    GI-GI-GI-GI-GI-GI-GI-GI-GI-GAH (5:00)
 
-MA-NA-LA THA-VA-ZA
-MEE-NEE-LEE THEE-VEE-ZEE
-MY- NY- LY THY- VY- ZY
-MOO-NOO-LOO THOO-VOO-ZOO
-MO-NO-LO THO- VO-ZO
+5. MA-NA-LA THA-VA-ZA
+    MEE-NEE-LEE THEE-VEE-ZEE
+    MY- NY- LY THY- VY- ZY
+    MOO-NOO-LOO THOO-VOO-ZOO
+    MO-NO-LO THO- VO-ZO (5:45)
 
-She stood on the balcony, inexplicably mimicking his hiccuping, whilst amicably welcoming him in
+6. She stood on the balcony, inexplicably mimicking his hiccuping, whilst amicably welcoming him in (7:03)
 
-Thomas Tattertoot, took taught twine, to tie ten twigs, to two tall trees
+7. Thomas Tattertoot, took taught twine, to tie ten twigs, to two tall trees (7:25)
 
-Bone-prop practice
+8. Bone-prop practice (7:32)
 
 
 ## Tools for Shakespearean Line Delivery
