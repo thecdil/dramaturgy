@@ -118,7 +118,7 @@ Once you’ve completed your facial warm-up, it’s time to move on to a whole b
 
 Have you ever seen Shakespeare performed live? There’s the excitement and buzz of the audience, the beautiful set and props onstage, then the actors make their entrance and . . . the audience has no idea what the actors are saying! Don’t worry! This is normal.
 
-Typically, audience ears have to spend about 5-10 minutes adjusting to the sound of classical text; and for some people it may take even longer. Shakespeare used a lot of words to explain his ideas, and it’s pretty easy for audiences to get lost if they aren’t in the habit of attending Shakespearean shows. As actors, it’s our job to make sure that the audience is able to follow the plot no matter what, and that is where “thought chunking” your text is incredibly helpful! 
+Typically, audience ears have to spend about 5-10 minutes adjusting to the sound of classical text. Shakespeare used a lot of words to explain his ideas, and it’s pretty easy for audiences to get lost if they aren’t in the habit of attending Shakespearean shows. As actors, it’s our job to make sure that the audience is able to follow the plot no matter what, and that is where “thought chunking” your text is incredibly helpful! 
 
 In monologues, the text usually explores one big idea at a time. Instead of trying to act and emphasize each and every word (that’s exhausting!), try figuring out what the big “idea” is, and see if you can shape your acting choices around the idea, or thought chunk, that needs to be communicated.
 
