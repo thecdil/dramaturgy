@@ -8,6 +8,11 @@ permalink: /acting.html
 # Welcome to Acting with Autumn! 
 In this series, MFA Candidate in Directing, Autumn Tustin, has created various tutorials for you to use in the classroom and rehearsal room. 
 
+<blockquote class="blockquote">
+  <p class="mb-0">A well-known quote, contained in a blockquote element.</p>
+  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+
 {% include feature/nav-menu.html sections="About Autumn;A Short Disclaimer;How to Use this Page;How to Warm up for a Shakespearean Performance;Tools for Shakespearean Line Delivery;Tools for Decoding Shakespeare" %}
 ## About Autumn
 
