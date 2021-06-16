@@ -25,9 +25,9 @@ We hope this makes it easier for site builders to develop the collection AND add
 
 #### Include a Video
 
-- Video: `{% raw %}{% include feature/item-video-embed.html objectid="demo_004" %}{% endraw %}`
+- Video: `{% raw %}{% include feature/video.html objectid="demo_004" %}{% endraw %}`
 
-{% include feature/item-video-embed.html objectid="demo_004" %}
+{% include feature/video.html objectid="demo_004" %}
 
 ### Include [Bootstrap](https://getbootstrap.com/) Features
 

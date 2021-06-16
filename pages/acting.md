@@ -16,7 +16,7 @@ In this series, MFA Candidate in Directing, Autumn Tustin, has created various t
 {% include feature/nav-menu.html sections="About Autumn;A Short Disclaimer;How to Use this Page;How to Warm up for a Shakespearean Performance;Tools for Shakespearean Line Delivery;Tools for Decoding Shakespeare" %}
 ## About Autumn
 
-{% include feature/item-video-embed.html objectid="midsummer0067" %} 
+{% include feature/video.html objectid="midsummer0067" %} 
 
 My name is Autumn and I have always loved Shakespeare! In middle school, I was the nerd reading *Romeo and Juliet* for fun, and in high school, I lived in Europe and was lucky enough to see a few shows at the Globe, cementing my deep love for theatre. During undergrad, I studied Art and Education, but I kept feeling like something was missing, so I went back to school and got another degree in Drama and Musical Theatre in Nashville, TN! When I was there, I was chosen for the Nashville Shakespeare Festival’s Apprentice Company, where I spent about 5 months intensely studying physical and classical theatre techniques, performing 2 professional shows in repertory. It was an incredible experience and I’ve continued to study Shakespeare, perform professionally, and teach what I know to anyone who is excited to learn! Right now, I am combining all the things I love and am studying to get my Master’s Degree in Directing. I hope through my short videos and blurbs you can learn something new, and who knows, maybe you’ll fall in love with Shakespeare too! 
 
@@ -53,7 +53,7 @@ Shakespeare’s texts can be incredibly dense so you want to make sure you’re 
 
 **The Vocal Warm-up** 
 
-{% include feature/item-video-embed.html objectid="midsummer0068" %} 
+{% include feature/video.html objectid="midsummer0068" %} 
 
 1. Start with stretching and massaging the face (01:26)
 
@@ -119,7 +119,7 @@ Once you’ve completed your facial warm-up, it’s time to move on to a whole b
 
 ### Thought Chunking
 
-{% include feature/item-video-embed.html objectid="midsummer0069" %} 
+{% include feature/video.html objectid="midsummer0069" %} 
 
 Have you ever seen Shakespeare performed live? There’s the excitement and buzz of the audience, the beautiful set and props onstage, then the actors make their entrance and . . . the audience has no idea what the actors are saying! Don’t worry! This is normal.
 
@@ -137,7 +137,7 @@ Thought chunking your text is also an incredibly helpful memorization tool! Inst
 
 ### Thinking on the Line
 
-{% include feature/item-video-embed.html objectid="midsummer0070" %} 
+{% include feature/video.html objectid="midsummer0070" %} 
 
 We all know Shakespeare can be long-winded but some of his plays are five, even six hours long (and since the majority of his audience was in the pit, they were standing that whole time)! There are some tricks to shortening the run time and keeping everyone interested in the action of the play, one of which is called “thinking on the line.”
 
@@ -159,7 +159,7 @@ In my opinion, Andrew’s style is gorgeous for the screen and Paapa’s style i
 
 ### Consonants, Vowels, and Alliteration
 
-{% include feature/item-video-embed.html objectid="midsummer0071" %} 
+{% include feature/video.html objectid="midsummer0071" %} 
 
 Shakespeare is known for making up words but at the end of the day he built them with the same old consonants and vowels that we’ve always used. In typical Shakespearean style, he left us clues for how to interpret what he wanted to see in the performance.
 
@@ -201,7 +201,7 @@ Lastly, remember the original context for Shakespeare’s productions: people pa
 
 ### Finding and Using Operative Words
 
-{% include feature/item-video-embed.html objectid="midsummer0072" %} 
+{% include feature/video.html objectid="midsummer0072" %} 
 
 Operative words are exactly as they sound: words that operate the sentence and paint a picture for audiences. As I mentioned in the video, modern actors tend to emphasize pronouns because we’re used to contemporary playwriting where comparison of people and circumstances is often at the heart of the conflict. Shakespeare took a lot of time and energy to make sure what was most important was rendered clearly through Iambic Pentameter. Using scansion to decode Iambic Pentameter, we find that the stressed syllable rarely lands on a pronoun. In other words, the operative word is most often a verb or more interesting word within the line. 
 
@@ -209,7 +209,7 @@ Operative words should go hand in hand with all the other skills of Shakespearea
 
 ### Iambic Pentameter
 
-{% include feature/item-video-embed.html objectid="midsummer0073" %} 
+{% include feature/video.html objectid="midsummer0073" %} 
 
 Iambic Pentameter is literally the heartbeat of Shakespeare! Iambic Pentameter is the style of verse that Shakespeare used in many of his plays. This has been written about over and over and over again by many academics, so I’ll spare you the gruesome details and simply say: 1 line of text holds 10 beats (syllables), usually made of 5 “feet,” or beat sets.  An “iambic” foot is meant to sound like a heartbeat- unstressed, STRESSED- so ten strung together in one line usually sounds like this: unstressed, STRESSED, unstressed, STRESSED, unstressed, STRESSED, unstressed, STRESSED, unstressed, STRESSED. 
 
@@ -217,7 +217,7 @@ The process of figuring out which syllables are stressed or unstressed in your l
 
 ### Word and Sentence Structure 
 
-{% include feature/item-video-embed.html objectid="midsummer0074" %} 
+{% include feature/video.html objectid="midsummer0074" %} 
 
 And now for the icing on the cake, the glue that holds everything together, the last detail to join the party: the structure of Shakespearean writing!
 It may sound incredibly boring but parsing out what each and every punctuation mark in Shakespearean verse means is exciting stuff! Now, truthfully, not *every* comma has to mean something, but isn’t it more likely that the man who spent decades of his life authoring detailed stories of love, loss, and ghosts in iambic pentameter would place punctuation meaningfully? I should think so! While we know that editors have added or removed punctuation in their various editions throughout the years, attending to punctuation is still a critical way of making sense of the work.
