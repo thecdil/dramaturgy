@@ -59,7 +59,7 @@ Shakespeare’s texts can be incredibly dense so you want to make sure you’re 
 
 **The Vocal Warm-up** 
 
-{% include feature/video.html objectid="midsummer0068" %} 
+{% include feature/video.html objectid="midsummer0068" width="50" %} 
 
 1. Start with stretching and massaging the face (01:26)
 
@@ -125,7 +125,7 @@ Once you’ve completed your facial warm-up, it’s time to move on to a whole b
 
 ### Thought Chunking
 
-{% include feature/video.html objectid="midsummer0069" %} 
+{% include feature/video.html objectid="midsummer0069" width="50" %} 
 
 Have you ever seen Shakespeare performed live? There’s the excitement and buzz of the audience, the beautiful set and props onstage, then the actors make their entrance and . . . the audience has no idea what the actors are saying! Don’t worry! This is normal.
 
@@ -143,7 +143,7 @@ Thought chunking your text is also an incredibly helpful memorization tool! Inst
 
 ### Thinking on the Line
 
-{% include feature/video.html objectid="midsummer0070" %} 
+{% include feature/video.html objectid="midsummer0070" width="50" %} 
 
 We all know Shakespeare can be long-winded but some of his plays are five, even six hours long (and since the majority of his audience was in the pit, they were standing that whole time)! There are some tricks to shortening the run time and keeping everyone interested in the action of the play, one of which is called “thinking on the line.”
 
@@ -165,18 +165,22 @@ In my opinion, Andrew’s style is gorgeous for the screen and Paapa’s style i
 
 ### Consonants, Vowels, and Alliteration
 
-{% include feature/video.html objectid="midsummer0071" %} 
+{% include feature/video.html objectid="midsummer0071" width="50" %} 
 
 Shakespeare is known for making up words but at the end of the day he built them with the same old consonants and vowels that we’ve always used. In typical Shakespearean style, he left us clues for how to interpret what he wanted to see in the performance.
 
 When you break down your text to the basics, it may offer you a glimpse into the mindset he had whilst writing different characters. For instance, Titania’s monologue starts out with powerful sounding consonants and short vowels, the first thought chunk ending with b’s and t’s to drive home her displeasure at the circumstances she and Oberon find themselves in: 
-“These are the forgeries of jealousy:
-And never, since the middle summer's spring,
-Met we on hill, in dale, forest or mead,
-By paved fountain or by rushy brook,
-Or in the beached margent of the sea,
-To dance our ringlets to the whistling wind, 
-But with thy brawls thou hast disturb'd our sport.”
+
+<blockquote class="blockquote">
+  <p class="mb-0">These are the forgeries of jealousy:<br>
+  And never, since the middle summer's spring,<br>
+  Met we on hill, in dale, forest or mead,<br>
+  By paved fountain or by rushy brook,<br>
+  Or in the beached margent of the sea,<br>
+  To dance our ringlets to the whistling wind,<br>
+  But with thy brawls thou hast disturb'd our sport.</p>
+  <footer class="blockquote-footer">Act II Scene 1 <cite title="Source Title">A Midsummer Night's Dream</cite></footer>
+</blockquote>
 
 We can interpret from the shortness of the vowel sounds and the harsher consonants that Titania is a powerful character, almost spitting some of her sounds at whoever is meant to receive the monologue. 
 
@@ -207,7 +211,7 @@ Lastly, remember the original context for Shakespeare’s productions: people pa
 
 ### Finding and Using Operative Words
 
-{% include feature/video.html objectid="midsummer0072" %} 
+{% include feature/video.html objectid="midsummer0072" width="50" %} 
 
 Operative words are exactly as they sound: words that operate the sentence and paint a picture for audiences. As I mentioned in the video, modern actors tend to emphasize pronouns because we’re used to contemporary playwriting where comparison of people and circumstances is often at the heart of the conflict. Shakespeare took a lot of time and energy to make sure what was most important was rendered clearly through Iambic Pentameter. Using scansion to decode Iambic Pentameter, we find that the stressed syllable rarely lands on a pronoun. In other words, the operative word is most often a verb or more interesting word within the line. 
 
@@ -215,7 +219,7 @@ Operative words should go hand in hand with all the other skills of Shakespearea
 
 ### Iambic Pentameter
 
-{% include feature/video.html objectid="midsummer0073" %} 
+{% include feature/video.html objectid="midsummer0073" width="50" %} 
 
 Iambic Pentameter is literally the heartbeat of Shakespeare! Iambic Pentameter is the style of verse that Shakespeare used in many of his plays. This has been written about over and over and over again by many academics, so I’ll spare you the gruesome details and simply say: 1 line of text holds 10 beats (syllables), usually made of 5 “feet,” or beat sets.  An “iambic” foot is meant to sound like a heartbeat- unstressed, STRESSED- so ten strung together in one line usually sounds like this: unstressed, STRESSED, unstressed, STRESSED, unstressed, STRESSED, unstressed, STRESSED, unstressed, STRESSED. 
 
@@ -223,7 +227,7 @@ The process of figuring out which syllables are stressed or unstressed in your l
 
 ### Word and Sentence Structure 
 
-{% include feature/video.html objectid="midsummer0074" %} 
+{% include feature/video.html objectid="midsummer0074" width="50" %} 
 
 And now for the icing on the cake, the glue that holds everything together, the last detail to join the party: the structure of Shakespearean writing!
 It may sound incredibly boring but parsing out what each and every punctuation mark in Shakespearean verse means is exciting stuff! Now, truthfully, not *every* comma has to mean something, but isn’t it more likely that the man who spent decades of his life authoring detailed stories of love, loss, and ghosts in iambic pentameter would place punctuation meaningfully? I should think so! While we know that editors have added or removed punctuation in their various editions throughout the years, attending to punctuation is still a critical way of making sense of the work.
