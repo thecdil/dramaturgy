@@ -28,21 +28,26 @@ This page is not at all meant to tear down any approach but rather to build an u
 ## How to Use this Page
 I’ve broken my teaching into three sections: “How to Warm-up for Shakespearean Performance,” “Tools for Line Delivery,” and “Tools for Decoding Shakespeare.” Here’s a little bit of what is included in each section:
 
-**How to Warm-up for Shakespearean Performance**
+{% capture section-one %}
 - Vocal Warmup 
 - Physical Warmup 
+{% endcapture %}
 
-**Tools for Shakespearean Line Delivery**
+{% capture section-two %}
 - Performing in “Thought Chunks”
 - Thinking on the Line
 - Contemporary v. Classical Approaches
 - Consonants, Vowels, and Alliteration
+{% endcapture %}
 
-**Tools for Decoding Shakespeare**
+{% capture section-three %}
 - Context
 - Finding and Using “Operative Words”
 - Iambic Pentameter
 - Word Structure/Choice 
+{% endcapture %}
+
+{% include feature/accordion.html section-one-heading="How to Warm-up for Shakespearean Performance" section-one-text=section-one section-two-heading="Tools for Shakespearean Line Delivery" section-two-text=section-two section-three-heading="Tools for Decoding Shakespeare" section-three-text=section-three %}
 
 In each section you’ll find a few short videos of me explaining the idea a little bit further, or giving examples from Shakespearean text. The videos are meant to be short, because the truth is, some of these things are conversations you’ll need to have with your director! I can only give you the basics, but it’s up to you to take it further. The best thing I can recommend is to get your rehearsal clothes on, script out, and pencil ready to take notes! Then when you come across a new idea, you can try it out right away. Let’s dive in, shall we?
 
