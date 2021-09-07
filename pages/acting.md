@@ -8,8 +8,8 @@ permalink: /acting.html
 # Welcome to Acting with Autumn! 
 In this series, MFA Candidate in Directing, Autumn Tustin, has created various tutorials for you to use in the classroom and rehearsal room. 
 
-
 {% include feature/nav-menu.html sections="About Autumn;A Short Disclaimer;How to Use this Page;How to Warm up for a Shakespearean Performance;Tools for Shakespearean Line Delivery;Tools for Decoding Shakespeare" %}
+
 ## About Autumn
 
 {% include feature/video.html objectid="midsummer0067" width="50" %} 
