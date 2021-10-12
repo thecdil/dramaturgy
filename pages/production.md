@@ -248,6 +248,6 @@ Frederick Ashton, British Choreographer, was a contemporary of Balanchine.  The 
 ### Exercise  
 Watch the full performance of both interpretations. What do these two versions teach us about the central story?  What does each production highlight?  Differences?  Similarities? 
 
-1. [A Midsummer Night’s Dream. Choreographed by George Balanchine. Full Performance by New York City Ballet, 1986 for “Live From Lincoln Center” on PBS](https://www.youtube.com/watch?v=ZrfiusNHCls) 
+1. [A Midsummer Night’s Dream. Choreographed by George Balanchine. Full Performance by New York City Ballet, 1986 for “Live From Lincoln Center” on PBS.](https://www.youtube.com/watch?v=ZrfiusNHCls) 
 
 2. [The Dream. Choreographed by Frederick Ashton. Full Performance by ABT, 2014 performance.](https://www.youtube.com/watch?v=s3APvyV9q2Q)
