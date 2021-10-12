@@ -6,7 +6,7 @@ permalink: /production.html
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/nav-menu.html sections="Earliest Performances on Stage;Adaptations in the Arts in *A Midsummer Night's Dream*;" %}
+{% include feature/nav-menu.html sections="Earliest Performances on Stage;Adaptations in the Arts in A Midsummer Night's Dream;" %}
 
 # *A Midsummer Night's Dream's* Earliest Performances on Stage
 
@@ -74,7 +74,7 @@ Examine how you can use the architecture of your playing space to add to the “
 
 Section Written by Bryan Wallingford
 
-# Adaptations in the Arts in *A Midsummer Night's Dream* 
+# Adaptations in the Arts in A Midsummer Night's Dream
 
 *A Midsummer Night’s Dream* lends itself to adaptation and interpretation, as illustrated by the many existing ballets, operas, and other productions of the work. Within the text of the play itself, Shakespeare’s characters refer to theatre, singing, dancing, and music throughout the action of the play. Exploring existing adaptations using creative arts other than theatre (opera, ballet, instrumental, etc.) can highlight the themes and core creative elements of this play and can help you find sources and inspiration for your production. In this section we will explore the history and production of several relevant adaptations that have survived to the modern era.  
 
