@@ -11,6 +11,7 @@ permalink: /production.html
 # Production History
 
 ## Early Stage Performances
+In this section, Bryan Wallingford details information about early stage productions of *A Midsummer Night's Dream*. 
 
 ### Private Performance 
 
@@ -68,15 +69,15 @@ Whether you have a modern stage with elaborate scenery and set pieces or a simpl
  
 Examine how you can use the architecture of your playing space to add to the “fairy magic” of the play with surprising entrances like the ones that might have occurred at The Curtain. Even if you don’t have an under-stage series of tunnels, can you have actors appear and reappear quickly in a new location?  
 
-###s Sources and Further Reading
+### Sources and Further Reading
 
 {% include feature/item-figure.html objectid="midsummer0060" width="25" %}
 
 {% include feature/item-figure.html objectid="midsummer0061" width="25" %}
 
-Section Written by Bryan Wallingford
 
 ## Adaptations in the Arts
+In this section, Emily Cornelius details information about adaptations of *A Midsummer Night's Dream* in other artforms like dance, music, and opera. 
 
 *A Midsummer Night’s Dream* lends itself to adaptation and interpretation, as illustrated by the many existing ballets, operas, and other productions of the work. Within the text of the play itself, Shakespeare’s characters refer to theatre, singing, dancing, and music throughout the action of the play. Exploring existing adaptations using creative arts other than theatre (opera, ballet, instrumental, etc.) can highlight the themes and core creative elements of this play and can help you find sources and inspiration for your production. In this section we will explore the history and production of several relevant adaptations that have survived to the modern era.  
 
