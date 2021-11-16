@@ -41,7 +41,7 @@ defaults:
   - scope:
       type: midsummer
     values:
-      layout: playscript
+      layout: playscript2
 
 ##########
 # GOOGLE SERVICES [optional!]

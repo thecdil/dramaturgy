@@ -1,0 +1,50 @@
+---
+layout: default
+---
+{% assign lines = site.data.midsummer | where: "actscene", page.actscene %}
+{%- assign items = site.data[site.metadata] -%}
+
+{%- comment -%} find all words used in the player field of our metadata {%- endcomment -%}
+{% capture players_play %}{% for line in lines %}{% unless line.player == "ACT" or line.player == "SCENE" %}{{- line.player -}};{% endunless %}{% endfor %}{% endcapture%}
+{%- assign players = players_play | split: ";" -%}
+{%- assign uniquePlayers = players | uniq -%}
+
+<div class="container">
+  
+    <h1>{{ page.title }}</h1>
+       
+    <div id="contents-container">
+        {% for line in lines %}
+        <section>
+            <div id="{{ line.actsceneline | slugify }}" class="{{ line.player }} row">
+            {% if line.player == "ACT" or line.player == "SCENE" or line.player == "StageDirection" %}
+                <div class="col"><em>{{ line.playerline }}</em></div>
+            {% else %}
+            {% assign prev_i = forloop.index0 | minus: 1 %}
+            {% assign prev_player = lines[prev_i].player %}
+            {% unless line.player == prev_player %}
+                <div class="col-12">{{ line.player }}:</div>
+            {% endunless %}
+                <div class="col-1">{{ line.actsceneline | split: '.' | last }}</div>
+                <div class="col-11">
+                    {{ line.playerline }}
+                    {% if line.annotation %}
+                    <a data-toggle="collapse" href="#a-{{ line.actsceneline | slugify }}" role="button" aria-expanded="false" aria-controls="a-{{ line.actsceneline | slugify }}">
+                        ***
+                    </a>
+                    <div class="collapse" id="a-{{ line.actsceneline | slugify }}">
+                        <div class="card card-body">
+                          {{ line.annotation }}
+                        </div>
+                    </div>
+
+                    {% endif %}
+
+                </div>
+            {% endif %}
+            </div>
+        </section>
+        {% endfor %}
+    </div>
+</div>
+        
