@@ -15,3 +15,38 @@
 {% if page.layout == "browse" %}{% include js/browse-js.html %}{% endif %}
 {% if page.layout == "timeline" %}{% include js/timeline-js.html %}{% endif %}
 {% if page.layout == "home-infographic" %}{% include js/carousel-js.html %}{% endif %}
+
+<script src="{{ '/assets/lib/recogito.min.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/lib/recogito.min.css' | relative_url }}">
+
+<script>
+// example annotation (only works on act1 scene 1)
+var myAnnotation = {
+    '@context': 'http://www.w3.org/ns/anno.jsonld',
+    'id': '{{ page.url | absolute_url }}',
+    'type': 'Annotation',
+    'body': [{
+        'type': 'TextualBody',
+        'value': 'This annotation was added via JS.'
+    }],
+    'target': {
+        'selector': [{
+        'type': 'TextQuoteSelector',
+        'exact': 'Enter THESEUS, HIPPOLYTA'
+        }, {
+        'type': 'TextPositionSelector',
+        'start': 0,
+        'end': 24
+        }]
+    }
+};
+
+// init recogito
+var r = Recogito.init({
+    content: document.getElementById('contents-container'), // ID or DOM element
+    readOnly: true
+});
+// add annotation from var
+r.addAnnotation(myAnnotation);
+
+</script>
