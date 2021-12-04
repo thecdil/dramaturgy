@@ -26,14 +26,7 @@
 .timestamp{font-size:10px;position: absolute; left: 9%}
 .grey {
   color: grey;
-  height: 5px !important;
-  width: 100% !important;
-  line-height: 5px !important;
-  float:left !important;
-  margin-bottom:1px !important; 
-  font-size:1px !important;
-  cursor: pointer;
-}
+ }
 
 .iframe-wrapper{
 position: fixed;
@@ -45,24 +38,6 @@ position: fixed;
   }
 }
 
-.anchored-highlight{background:aquamarine;}
-.featured {
-    display: block;
-    float: none;
-    clear: both;
-}
-.line{ font-size:11px; float:left;width:auto;}
-.words{min-width: 650px;
-  @include media-query($on-palm) {min-width: 250px;}}
-.grey .words, .grey .timestamp, .grey .speaker, .grey .line {
-  display: inline;
-  font-size: 3px;
-  padding: 0px 5px;
-}
 
-.grey .annotation{
-  display: none;
-}
 
-.filteroptions, .searchinput{font-size:24px; 
-  @include media-query($on-palm) { font-size:18px;}}
+

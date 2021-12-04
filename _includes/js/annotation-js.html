@@ -1,0 +1,23 @@
+<script>
+(function(){
+  $(".annotation").click(function () {
+    $("div").not(this).removeClass("annotate-show");
+    $(this).toggleClass('annotate-show');
+    console.log("clicked it")
+  });
+
+  $(".playline div.annotated").click(function () {
+    var annotation = $(this).data("filter");
+    $("div").not("#" + annotation).removeClass("annotate-show");
+    $("#" + annotation).toggleClass('annotate-show');
+    console.log(annotation)
+  });
+
+  $(".hilite").hover(function () {
+    var hiliteid = $(this).data("filter");
+    $("." + hiliteid).toggleClass('font-weight-bold');
+  });
+
+})();
+
+</script>
