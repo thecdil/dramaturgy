@@ -21,9 +21,11 @@ layout: default
         <div class="col-md-12">
             <h1>{{ page.title }}</h1>
         </div>
-    </div>
-    <div class="row my-3">
         {% if page.actscene contains 'ALL' %}
+    </div>
+    
+    <div class="row my-3 sticky-top bg-white border-bottom border-left border-right">
+        
         <div class="col-md-3">
             <p class="pt-4">
                 <select id="scenes" title="Jump to a year" class="filteroptions filters px-3 py-2" style="max-width: 100%;">
