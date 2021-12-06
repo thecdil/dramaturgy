@@ -3,6 +3,9 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+.navbar
+{z-index: 10000;}
+
 .annotation {
     background-color: transparent;
     width: 15vw;  
