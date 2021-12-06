@@ -1,12 +1,8 @@
 <script>
 (function(){
-  $(".annotation").click(function () {
-    $("div").not(this).removeClass("annotate-show");
-    $(this).toggleClass('annotate-show');
-    console.log("clicked it")
-  });
 
-  $(".playline div.annotated").click(function () {
+
+  $(".playline").on("click","div.annobutton", function ( event ) {
     var annotation = $(this).data("filter");
     $("div").not("#" + annotation).removeClass("annotate-show");
     $("#" + annotation).toggleClass('annotate-show');

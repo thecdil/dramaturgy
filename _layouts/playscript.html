@@ -59,6 +59,8 @@ layout: default
                     </div>
                     <div class="col-md-6">
                         <button class="reset btn btn-sm btn-secondary mt-1" href="#" data-filter="">Reset Filters</button>
+                        <h5 class="d-none linecount" ><span class="info2"><span id="numberof">{{ lines | size }}</span> of {{ lines | size }} lines</span></h5>
+
                     </div>
                 </div>
                     <!--<div class="filteroptions mx-2 p-4 mb-4">
@@ -96,6 +98,7 @@ layout: default
                    </div>
                 <div class="col-4">
                     <button class="reset btn btn-sm btn-secondary mt-1" href="#" data-filter="">Reset Filters</button>
+                    <h5><span class="info2"><span id="numberof">{{ lines | size }}</span> of {{ lines | size }} rows</span></h5>
                 </div>
             </div>    
         </div>
@@ -129,10 +132,10 @@ layout: default
         {% capture annotationid %}{% if line.annotation contains 'ibid' %}{% capture adjustment %}{{ line.annotation | replace: 'ibid','' | times: 1 }}{% endcapture %}anno{{line.actscene | replace: '.',''}}{{ numline | minus: adjustment}}{% else %}anno{{line.actsceneline | replace: '.',''}}{% endif %}{% endcapture %}
         <div id="{{ line.dataline }}" class="{{ line.player }} {{ line.actscene | replace: '.','scene'| prepend: 'act' }} row playline textline">
             <div class="col-1 small" id="{{ line.actsceneline }}">{% if page.actscene contains 'ALL' %}{{ line.actsceneline }}{% else %}{{ actsceneline }}{% endif %}</div>
-            <div class="col-6 pr-0 playerline annotated {% unless line.annotation contains "ibid" %}mt-1{% endunless%}" data-filter="{{ annotationid }}">{% if line.highlight %}{% capture hilite %}<span class="hilite hi-{{ annotationid }}" data-filter="hi-{{ annotationid }}">{{line.highlight}}</span>{% endcapture %}{{ line.playerline | replace: line.highlight, hilite }}{% else %}{{line.playerline}}{% endif %}</div>
-            <div class="col-5 small ">
+            <div class="col-6 pr-0 playerline annobutton annotated {% unless line.annotation contains "ibid" %}mt-1{% endunless%}" data-filter="{{ annotationid }}">{% if line.highlight %}{% capture hilite %}<span class="hilite hi-{{ annotationid }}" data-filter="hi-{{ annotationid }}">{{line.highlight}}</span>{% endcapture %}{{ line.playerline | replace: line.highlight, hilite }}{% else %}{{line.playerline}}{% endif %}</div>
+            <div class="col-5 small anno-container">
                 
-                <div class="annotation" id="{{ annotationid }}">
+                <div class="annotation annobutton" id="{{ annotationid }}" data-filter="{{ annotationid }}">
                     <div class="content">
                     {% unless line.annotation contains "ibid" %}
                     {{ line.annotation | markdownify }}

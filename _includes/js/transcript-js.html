@@ -7,8 +7,9 @@
     $(".playline").hide();
     $('div.' + myClass).show();
     $("input#quicksearch").val("");
-    var numberofint = $('div.featured').length;
+    var numberofint = $('div.'+ myClass).length;
     $("#numberof").html(numberofint);
+    $('.linecount').removeClass('d-none');
     $("select").not(this).val($("option:first").val());
     let url = new URL(window.location);
     let params = url.searchParams;
@@ -27,8 +28,9 @@
     $(".playline").hide();
     $('div.' + myClass).show();
     $("input#quicksearch").val("");
-    var numberofint = $('div.featured').length;
+    var numberofint = $('div.'+ myClass).length;
     $("#numberof").html(numberofint);
+    $('.linecount').removeClass('d-none');
     $("select").not(this).val($("option:first").val());
     let url = new URL(window.location);
     let params = url.searchParams;
@@ -43,13 +45,14 @@
     $(".playline").show();
     $(".searchline").removeClass("grey");
     $('div').removeClass("anchored-highlight");
+    $('div').removeClass("annotate-show");
     $("div").removeClass("featured");
     $("section").removeClass("featured");
     $("span").removeClass("text-danger");
     $("input#quicksearch").val("");
     $("#players").val($("#players option:first").val());
     $("#scenes").val($("#scenes option:first").val());
-    var numberofint = $('tr').length;
+    var numberofint = $('section').length;
     $("#numberof").html(numberofint);
     let url = new URL(window.location);
     let params = url.searchParams;
@@ -97,6 +100,9 @@
           item[i].classList.add("grey");
         }
       }
+     var numberofint = $('.featured').length;
+     $("#numberof").html(numberofint);
+     $('.linecount').removeClass('d-none');
     }
   }
 
